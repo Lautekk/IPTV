@@ -90,9 +90,9 @@ rtsp://192.168.1.30/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=o
 #EXTINF:-1 tvg-id="Deluxe Rap" tvg-name="Deluxe Rap" tvg-shift="" radio="" tvg-chno="035" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Deluxe_Rap_Logo_2023.svg/1200px-Deluxe_Rap_Logo_2023.svg.png" group-title="Germany TV;Germany Free TV",Deluxe Rap
 rtsp://192.168.1.30/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,100,1279,1280
 #EXTINF:-1 tvg-id="Deluxe Rock" tvg-name="Deluxe Rock" tvg-shift="" radio="" tvg-chno="035" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Deluxe_Rock_Logo_2023.svg/1200px-Deluxe_Rock_Logo_2023.svg.png" group-title="Germany TV;Germany Free TV",Deluxe Rock
+rtsp://192.168.1.30/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,99,1023,1024
 #EXTINF:-1 tvg-name="Schlager Deluxe" tvg-id="SchlagerDeluxe.de" group-title="Musik" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/schlagerdeluxe.png",Schlager Deluxe
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/26658/26658_264_live.m3u8
-rtsp://192.168.1.30/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,99,1023,1024
 #EXTINF:-1 tvg-name="Melodie TV" tvg-id="" group-title="International;Musik" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/melodietv.png",Melodie TV
 rtsp://192.168.1.30/?src=1&freq=11244&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,229,2290,2291
 #EXTINF:-1 tvg-id="DeutschesMusikFernsehen.de" tvg-name="Deutsches_Musik_Fernsehen" tvg-shift="" radio="" tvg-chno="039" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/deutsches-musik-fernsehen-hd.png" group-title="Germany TV;Germany Free TV",Deutsches Musik Fernsehen HD
