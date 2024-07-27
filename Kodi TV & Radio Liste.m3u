@@ -141,3 +141,5 @@ https://adultswim-vodlive.cdn.turner.com/live/black-jesus/stream_7.m3u8
 https://adultswim-vodlive.cdn.turner.com/live/ypf/stream_7.m3u8
 #EXTINF:-1 tvg-name="Adult Swim - Dream Corp LLC" tvg-id="" group-title="International;Comedy" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/adultswim.png",Adult Swim (Dream Corp LLC Marathon)
 https://adultswim-vodlive.cdn.turner.com/live/DREAM-CORP-LLC/stream_7.m3u8
+#EXTINF:-1 tvg-name="More than Sports TV" tvg-id="morethansports.de" group-title="Sport" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/morethansports.png",More than Sports TV
+https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
