@@ -1,0 +1,20 @@
+IPTV:
+
+Senderliste mit TV-Sendern & Radio	https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/iptv/kodi/kodi.m3u
+Senderliste mit TV-Sendern		https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/iptv/kodi/kodi_tv.m3u
+Senderliste mit Radio			https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/iptv/kodi/kodi_radio.m3u
+Senderliste von SGK			https://kodi-unlimited-support.de/tv/m3u/kus_tv_de.m3u
+Deutsche Senderliste von iptv-org	https://iptv-org.github.io/iptv/languages/deu.m3u
+IPTV Github Lautech			https://raw.githubusercontent.com/Lautekk/IPTV/main/Kodi%20TV%20%26%20Radio%20Liste.m3u
+
+
+
+EPG:
+
+EPG für die Kodinerds Senderliste	https://rytecepg.dyndns.tv/epg_data/rytecDE_Basic.xz
+EPG für die SGK Senderliste		https://kodi-unlimited-support.de/tv/epg.gz
+EPG für Deutsche Senderliste iptv-org	https://iptv-org.github.io/epg/guides/de/hd-plus.de.xml
+EPG für Yallo				https://telerising.de/epg/easyepg-basic.gz
+EPG für ricxepg.nl			https://ricxepg.nl/epg_data/rytecDE_Basic.gz
+xmltv.info				https://xmltv.info/de/epg.xml
+
