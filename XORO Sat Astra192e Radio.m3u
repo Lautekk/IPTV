@@ -1,0 +1,185 @@
+#EXTM3U
+#EXTINF:0,1LIVE
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,600,601
+#EXTINF:0,1LIVE diggi
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,660,661
+#EXTINF:0,Antenne Bayern
+rtsp://192.168.178.74/?src=1&freq=12148&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,112,352
+#EXTINF:0,Antenne Brandenburg
+rtsp://192.168.178.74/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,920,921
+#EXTINF:0,Bayern 1
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,100,101
+#EXTINF:0,Bayern 2
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,110,111
+#EXTINF:0,BAYERN 3
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,120,121
+#EXTINF:0,BR Schlager
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,160,161
+#EXTINF:0,BR-Heimat
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,180,181
+#EXTINF:0,BR-KLASSIK
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,130,131,133
+#EXTINF:0,BR24
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,140,141
+#EXTINF:0,BR24live
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,150,151
+#EXTINF:0,Bremen Eins
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,300,301
+#EXTINF:0,Bremen NEXT
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,330,331
+#EXTINF:0,Bremen Vier
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,320,321
+#EXTINF:0,Bremen Zwei
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,310,311
+#EXTINF:0,COSMO
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,650,651
+#EXTINF:0,DASDING
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,560,561
+#EXTINF:0,Die Maus
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,670,671
+#EXTINF:0,Dlf
+rtsp://192.168.178.74/?src=1&freq=11954&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,800,810
+#EXTINF:0,Dlf Kultur
+rtsp://192.168.178.74/?src=1&freq=11954&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,700,710,711
+#EXTINF:0,Dlf Nova
+rtsp://192.168.178.74/?src=1&freq=11954&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,410,411
+#EXTINF:0,DRadio DokDeb
+rtsp://192.168.178.74/?src=1&freq=11954&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,500,510
+#EXTINF:0,egoFM
+rtsp://192.168.178.74/?src=1&freq=12461&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,132,384
+#EXTINF:0,ffn
+rtsp://192.168.178.74/?src=1&freq=12633&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,154,354
+#EXTINF:0,FM4
+rtsp://192.168.178.74/?src=1&freq=12663&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,434,1134
+#EXTINF:0,Fritz
+rtsp://192.168.178.74/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,950,951
+#EXTINF:0,hr INFO
+rtsp://192.168.178.74/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,750,751
+#EXTINF:0,hr1
+rtsp://192.168.178.74/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,700,701
+#EXTINF:0,hr2
+rtsp://192.168.178.74/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,710,711
+#EXTINF:0,hr3
+rtsp://192.168.178.74/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,720,721
+#EXTINF:0,hr4
+rtsp://192.168.178.74/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,730,731
+#EXTINF:0,JAM FM
+rtsp://192.168.178.74/?src=1&freq=12461&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,119,528
+#EXTINF:0,Klassik Radio
+rtsp://192.168.178.74/?src=1&freq=12461&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,133,336
+#EXTINF:0,MDR AKTUELL
+rtsp://192.168.178.74/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,860,861
+#EXTINF:0,MDR JUMP
+rtsp://192.168.178.74/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,840,841
+#EXTINF:0,MDR KLASSIK
+rtsp://192.168.178.74/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,870,871
+#EXTINF:0,MDR KULTUR
+rtsp://192.168.178.74/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,830,831
+#EXTINF:0,MDR S-ANHALT MD
+rtsp://192.168.178.74/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,810,811
+#EXTINF:0,MDR SPUTNIK
+rtsp://192.168.178.74/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,850,851
+#EXTINF:0,N-JOY
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,230,231
+#EXTINF:0,NDR 2 NDS
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,200,201
+#EXTINF:0,NDR 90.3
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,240,241
+#EXTINF:0,NDR Blue
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,290,291
+#EXTINF:0,NDR Info NDS
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,220,221
+#EXTINF:0,NDR Kultur
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,210,213
+#EXTINF:0,NDR Schlager
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,295,296
+#EXTINF:0,NRJ
+rtsp://192.168.178.74/?src=1&freq=12285&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=29700&fec=23&pids=0,17,18,1960,2160
+#EXTINF:0,OE1
+rtsp://192.168.178.74/?src=1&freq=12663&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,1121,421
+#EXTINF:0,OE2 T
+rtsp://192.168.178.74/?src=1&freq=12663&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,1128,428
+#EXTINF:0,OLDIE ANTENNE
+rtsp://192.168.178.74/?src=1&freq=12148&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,32,368
+#EXTINF:0,ORF HITRADIO OE3
+rtsp://192.168.178.74/?src=1&freq=11302&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,120,921
+#EXTINF:0,ORF RADIO B
+rtsp://192.168.178.74/?src=1&freq=11302&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,144,944
+#EXTINF:0,ORF RADIO FM4
+rtsp://192.168.178.74/?src=1&freq=11302&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,141,941
+#EXTINF:0,ORF RADIO K
+rtsp://192.168.178.74/?src=1&freq=11302&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,150,950
+#EXTINF:0,ORF RADIO NOE
+rtsp://192.168.178.74/?src=1&freq=11302&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,143,943
+#EXTINF:0,ORF RADIO OE1
+rtsp://192.168.178.74/?src=1&freq=11302&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,140,940
+#EXTINF:0,ORF RADIO OOE
+rtsp://192.168.178.74/?src=1&freq=11302&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,145,945
+#EXTINF:0,ORF RADIO S
+rtsp://192.168.178.74/?src=1&freq=11302&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,146,946
+#EXTINF:0,ORF RADIO STMK
+rtsp://192.168.178.74/?src=1&freq=11302&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,149,949
+#EXTINF:0,ORF RADIO T
+rtsp://192.168.178.74/?src=1&freq=11302&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,147,947
+#EXTINF:0,ORF RADIO V
+rtsp://192.168.178.74/?src=1&freq=11302&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,148,948
+#EXTINF:0,ORF RADIO WIEN
+rtsp://192.168.178.74/?src=1&freq=11302&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,142,942
+#EXTINF:0,PULS
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,170,171
+#EXTINF:0,RADIO GALEGA
+rtsp://192.168.178.74/?src=1&freq=11376&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,1800,1802
+#EXTINF:0,RADIO GALEGA MUSICA
+rtsp://192.168.178.74/?src=1&freq=11376&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,1900,1902
+#EXTINF:0,Radio Horeb
+rtsp://192.168.178.74/?src=1&freq=12604&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,7289,1289
+#EXTINF:0,Radio Maria
+rtsp://192.168.178.74/?src=1&freq=12663&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,1140,440
+#EXTINF:0,Radio Paloma
+rtsp://192.168.178.74/?src=1&freq=12633&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,155,355
+#EXTINF:0,radio3
+rtsp://192.168.178.74/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,910,911
+#EXTINF:0,radioeins
+rtsp://192.168.178.74/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,940,941
+#EXTINF:0,rbb 88.8
+rtsp://192.168.178.74/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,930,931
+#EXTINF:0,rbb24 Inforadio
+rtsp://192.168.178.74/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,900,901
+#EXTINF:0,Rock Antenne
+rtsp://192.168.178.74/?src=1&freq=12148&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,101,304
+#EXTINF:0,RTL Radio
+rtsp://192.168.178.74/?src=1&freq=12604&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,7931,7932
+#EXTINF:0,SR 1 Europawelle
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,400,401
+#EXTINF:0,SR 3 Saarlandwelle
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,420,421
+#EXTINF:0,SR kultur
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,410,411
+#EXTINF:0,sunshine live
+rtsp://192.168.178.74/?src=1&freq=12148&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,102,336
+#EXTINF:0,SWR Aktuell
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,570,571
+#EXTINF:0,SWR Kultur
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,520,521
+#EXTINF:0,SWR1 BW
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,500,501
+#EXTINF:0,SWR1 RP
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,510,511
+#EXTINF:0,SWR3
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,530,531
+#EXTINF:0,SWR4 BW
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,540,541
+#EXTINF:0,TOGGO Radio
+rtsp://192.168.178.74/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,59,501
+#EXTINF:0,WDR 2
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,610,611
+#EXTINF:0,WDR 3
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,620,621
+#EXTINF:0,WDR 4
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,630,631
+#EXTINF:0,WDR 5
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,640,641
+#EXTINF:0,WDR Event
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,680,681
+#EXTINF:0,YOU FM
+rtsp://192.168.178.74/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,740,741
