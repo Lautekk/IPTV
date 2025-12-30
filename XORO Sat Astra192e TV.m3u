@@ -1,213 +1,121 @@
-#EXTM3U
-#EXTINF:0,3sat HD
-rtsp://192.168.178.74/?src=1&freq=11347&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,6500,6510,6520,6530
-#EXTINF:0,a.tv
-rtsp://192.168.178.74/?src=1&freq=11552&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,101,1010,1012
-#EXTINF:0,Al Jazeera English
-rtsp://192.168.178.74/?src=1&freq=11229&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,3100,3101,3102
-#EXTINF:0,Anewz
-rtsp://192.168.178.74/?src=1&freq=11068&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,480,1210,1211
-#EXTINF:0,ANIXE HD
-rtsp://192.168.178.74/?src=1&freq=10774&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,255,259,96
-#EXTINF:0,ARD alpha HD
-rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,5420,5421,5422,5423,5424,5426,5427
-#EXTINF:0,Arirang HD
-rtsp://192.168.178.74/?src=1&freq=11509&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,712,732,762
-#EXTINF:0,Aristo TV
-rtsp://192.168.178.74/?src=1&freq=11273&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,311,3110,3111,8191
-#EXTINF:0,arte HD
-rtsp://192.168.178.74/?src=1&freq=11494&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5110,5111,5112,5113
-#EXTINF:0,BBC World News
-rtsp://192.168.178.74/?src=1&freq=11229&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,212,2091,2092
-#EXTINF:0,Bibel TV
-rtsp://192.168.178.74/?src=1&freq=11244&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,224,2240,2241
-#EXTINF:0,Bloomberg Europe TV
-rtsp://192.168.178.74/?src=1&freq=12604&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,48,150,265,3622
-#EXTINF:0,BR HD
-rtsp://192.168.178.74/?src=1&freq=11583&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5201,5202,5210,5204
-#EXTINF:0,CGTN Documentary
-rtsp://192.168.178.74/?src=1&freq=11376&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,1021,1022,1500
-#EXTINF:0,CGTN HD
-rtsp://192.168.178.74/?src=1&freq=11376&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,1011,1012,1600
-#EXTINF:0,CNBC HD
-rtsp://192.168.178.74/?src=1&freq=12382&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=27500&fec=34&pids=0,17,18,105,2303,2307
-#EXTINF:0,CNEWS
-rtsp://192.168.178.74/?src=1&freq=12207&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=29700&fec=23&pids=0,17,18,1400,1410,1421
-#EXTINF:0,CNN Int.
-rtsp://192.168.178.74/?src=1&freq=11778&pol=v&ro=0.25&msys=dvbs2&mtype=qpsk&plts=off&sr=29500&fec=910&pids=0,17,18,48,95,400
-#EXTINF:0,Comedy Central
-rtsp://192.168.178.74/?src=1&freq=11973&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,416,4061,4062,4063
-#EXTINF:0,Crime Time
-rtsp://192.168.178.74/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,107,3071,3072
-#EXTINF:0,Das Erste HD
+#EXTM3U x-tvg-url="https://xmltv.info/de/epg.xml"
+
+# --- DEUTSCHLAND: VOLLPROGRAMME ---
+#EXTINF:-1 tvg-id="DE: Das Erste" tvg-chno="1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Das_Erste_2014.svg/960px-Das_Erste_2014.svg.png" group-title="DE: Vollprogramme",Das Erste
 rtsp://192.168.178.74/?src=1&freq=11494&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5100,5101,5102,5104
-#EXTINF:0,Deluxe Dance by Kontor
-rtsp://192.168.178.74/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,101,1535,1536
-#EXTINF:0,Deluxe Flashback
-rtsp://192.168.178.74/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,102,1791,1792
-#EXTINF:0,Deluxe Lounge
-rtsp://192.168.178.74/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,105,2559,2560
-#EXTINF:0,Deluxe Music
-rtsp://192.168.178.74/?src=1&freq=12148&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,99,3327,3328
-#EXTINF:0,Deluxe Rap
-rtsp://192.168.178.74/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,100,1279,1280
-#EXTINF:0,Deluxe Rock
-rtsp://192.168.178.74/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,99,1023,1024
-#EXTINF:0,DF1 HD
-rtsp://192.168.178.74/?src=1&freq=11302&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,110,4920,4921
-#EXTINF:0,Disney Channel
-rtsp://192.168.178.74/?src=1&freq=12460&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,115,2047,2048
-#EXTINF:0,DMAX
-rtsp://192.168.178.74/?src=1&freq=12480&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,3327,3328,108,44
-#EXTINF:0,DMF
-rtsp://192.168.178.74/?src=1&freq=12460&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,35,99,767,768
-#EXTINF:0,DOKUSAT
-rtsp://192.168.178.74/?src=1&freq=12663&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,1030,1031,1035,1103
-#EXTINF:0,DW English HD
-rtsp://192.168.178.74/?src=1&freq=11778&pol=v&ro=0.25&msys=dvbs2&mtype=qpsk&plts=off&sr=29500&fec=910&pids=0,17,18,1000,1110,1120
-#EXTINF:0,EURONEWS GERMAN SD
-rtsp://192.168.178.74/?src=1&freq=11376&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,1081,1082,1180
-#EXTINF:0,EUROSPORT Deutschland
-rtsp://192.168.178.74/?src=1&freq=12226&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,101,103,280,102
-#EXTINF:0,EWTN Katholisches TV
-rtsp://192.168.178.74/?src=1&freq=12460&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,100,1023,1024
-#EXTINF:0,France 24
-rtsp://192.168.178.74/?src=1&freq=11538&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,201,605,625
-#EXTINF:0,France 24 English
-rtsp://192.168.178.74/?src=1&freq=11538&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,202,606,626
-#EXTINF:0,Franken Plus HD
-rtsp://192.168.178.74/?src=1&freq=11553&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,110,1100,1102
-#EXTINF:0,HGTV
-rtsp://192.168.178.74/?src=1&freq=10921&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=78&pids=0,17,18,99,1023,1024
-#EXTINF:0,Hip Trips
-rtsp://192.168.178.74/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,97,511,512
-#EXTINF:0,Hoehenrausch
-rtsp://192.168.178.74/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,106,2815,2816
-#EXTINF:0,Hope Channel TV
-rtsp://192.168.178.74/?src=1&freq=11244&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,227,2270,2271
-#EXTINF:0,HR HD
-rtsp://192.168.178.74/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5350,5351,5352,5354
-#EXTINF:0,K-TV Fernsehen
-rtsp://192.168.178.74/?src=1&freq=12633&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,102,202,302
-#EXTINF:0,kabel eins
-rtsp://192.168.178.74/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,767,768,98,34
-#EXTINF:0,kabel eins Doku
-rtsp://192.168.178.74/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,41,105,2559,2560
-#EXTINF:0,KiKA HD
-rtsp://192.168.178.74/?src=1&freq=11347&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,6600,6610,6620,6630
-#EXTINF:0,krone.tv
-rtsp://192.168.178.74/?src=1&freq=11273&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,313,3130,3131
-#EXTINF:0,Lilo.TV
-rtsp://192.168.178.74/?src=1&freq=12633&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,133,233,333,533
-#EXTINF:0,MDR HD
-rtsp://192.168.178.74/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5330,5331,5332,5334
-#EXTINF:0,Medienplattform Bayern
-rtsp://192.168.178.74/?src=1&freq=11553&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,111,1110
-#EXTINF:0,MTV
-rtsp://192.168.178.74/?src=1&freq=11973&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,411,4081,4082,4083
-#EXTINF:0,muenchen.tv HD
-rtsp://192.168.178.74/?src=1&freq=11553&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,102,1020,1022
-#EXTINF:0,n-tv
-rtsp://192.168.178.74/?src=1&freq=12187&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,48,169,73
-#EXTINF:0,N24 DOKU
-rtsp://192.168.178.74/?src=1&freq=12460&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,97,511,512
-#EXTINF:0,NDR HD
-rtsp://192.168.178.74/?src=1&freq=11583&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5221,5222,5240,5224
-#EXTINF:0,NHK World
-rtsp://192.168.178.74/?src=1&freq=11229&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,1120,1760,5071
-#EXTINF:0,Nick/Comedy Central+1
-rtsp://192.168.178.74/?src=1&freq=11973&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,420,4101,4102,4103
-#EXTINF:0,oe24.TV HD
-rtsp://192.168.178.74/?src=1&freq=11273&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,314,3140,3141
-#EXTINF:0,ONE HD
-rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,5410,5411,5412
-#EXTINF:0,One Terra
-rtsp://192.168.178.74/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,98,767,768
-#EXTINF:0,ORF 2 EUROPE
-rtsp://192.168.178.74/?src=1&freq=11273&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,310,3100,3101
-#EXTINF:0,ORF HITRADIO OE3 VISUAL
-rtsp://192.168.178.74/?src=1&freq=11302&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,117,2970,2971
-#EXTINF:0,phoenix HD
-rtsp://192.168.178.74/?src=1&freq=11582&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,5260,5261,5262,5263
-#EXTINF:0,Pro7 MAXX
-rtsp://192.168.178.74/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,101,1535,1536
-#EXTINF:0,ProSieben
-rtsp://192.168.178.74/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,97,511,512,33
-#EXTINF:0,R9 Oesterreich HD
-rtsp://192.168.178.74/?src=1&freq=11273&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,312,3120,3121
-#EXTINF:0,Radio Bremen TV
-rtsp://192.168.178.74/?src=1&freq=12422&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,1200,1201,1202,1204
-#EXTINF:0,rbb Berlin HD
-rtsp://192.168.178.74/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5310,5311,5312,5313,5314,5316,5317
-#EXTINF:0,Red Adventure
-rtsp://192.168.178.74/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,106,2815,2816
-#EXTINF:0,RiC
-rtsp://192.168.178.74/?src=1&freq=11302&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,130,1930,1931
-#EXTINF:0,RTL
-rtsp://192.168.178.74/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,163,104,44,105
-#EXTINF:0,RTL Nitro
-rtsp://192.168.178.74/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,173,146,53,84
-#EXTINF:0,RTLup
-rtsp://192.168.178.74/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,41,70,137,168
-#EXTINF:0,RTLZWEI
-rtsp://192.168.178.74/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,166,128,46,68
-#EXTINF:0,SAT.1
-rtsp://192.168.178.74/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,255,256,96,32
-#EXTINF:0,SAT.1 Gold
-rtsp://192.168.178.74/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,1279,1280,100,36
-#EXTINF:0,SERIEN+
-rtsp://192.168.178.74/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,108,3327,3328
-#EXTINF:0,Sixx
-rtsp://192.168.178.74/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,38,102,1791,1792
-#EXTINF:0,Sky News Intl
-rtsp://192.168.178.74/?src=1&freq=12604&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,1290,1750,2290,7290
-#EXTINF:0,SPORT1 HD
-rtsp://192.168.178.74/?src=1&freq=12480&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,1023,1024,103,39
-#EXTINF:0,SR Fernsehen HD
-rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,5430,5431,5432,5433,5434,5436,5437
-#EXTINF:0,Super RTL
-rtsp://192.168.178.74/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,165,120,45,65
-#EXTINF:0,SWR HD
-rtsp://192.168.178.74/?src=1&freq=11494&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5121,5122,5120,5124
-#EXTINF:0,tagesschau24 HD
-rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,5400,5401,5402
-#EXTINF:0,TELE 5
-rtsp://192.168.178.74/?src=1&freq=12480&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,99,1535,1536
-#EXTINF:0,TELEGOLD
-rtsp://192.168.178.74/?src=1&freq=12633&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,53,54,105,504
-#EXTINF:0,TLC
-rtsp://192.168.178.74/?src=1&freq=12460&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,37,103,1535,1536
-#EXTINF:0,TOGGO plus
-rtsp://192.168.178.74/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,58,301,303
-#EXTINF:0,TV Berlin
-rtsp://192.168.178.74/?src=1&freq=11302&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,132,3940,3941
-#EXTINF:0,tv.ingolstadt HD
-rtsp://192.168.178.74/?src=1&freq=11553&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,105,1050,1052
-#EXTINF:0,TV1 OOE
-rtsp://192.168.178.74/?src=1&freq=11273&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,315,3150,3151
-#EXTINF:0,TV5 Monde Europe
-rtsp://192.168.178.74/?src=1&freq=11538&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,665,615,635
-#EXTINF:0,UHD1
-rtsp://192.168.178.74/?src=1&freq=10995&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=56&pids=0,17,18,96,101,102
-#EXTINF:0,Volksmusik TV
-rtsp://192.168.178.74/?src=1&freq=11244&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,222,2220,2221
-#EXTINF:0,VOX
-rtsp://192.168.178.74/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,167,136,47,71
-#EXTINF:0,VOXup
-rtsp://192.168.178.74/?src=1&freq=12226&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,600,601,602,603
-#EXTINF:0,WDR HD Aachen
-rtsp://192.168.178.74/?src=1&freq=11523&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,101,102,103,104,106,107,110,111
-#EXTINF:0,WDR HD Koeln
-rtsp://192.168.178.74/?src=1&freq=11523&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,100,101,102,103,104,106,107
-#EXTINF:0,WELT
-rtsp://192.168.178.74/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,99,1023,1024
-#EXTINF:0,Xplore
-rtsp://192.168.178.74/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,96,255,256
-#EXTINF:0,ZDF HD
+#EXTINF:-1 tvg-id="DE: ZDF" tvg-chno="2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/ZDF_logo.svg/960px-ZDF_logo.svg.png" group-title="DE: Vollprogramme",ZDF
 rtsp://192.168.178.74/?src=1&freq=11362&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,6100,6110,6120,6130
-#EXTINF:0,ZDFinfo HD
+#EXTINF:-1 tvg-id="DE: RTL" tvg-chno="3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mediengruppe_RTL_Logo_09.2021.svg/500px-Mediengruppe_RTL_Logo_09.2021.svg.png" group-title="DE: Vollprogramme",RTL
+rtsp://192.168.178.74/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,163,104,44,105
+#EXTINF:-1 tvg-id="DE: RTL ZWEI" tvg-chno="4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/500px-RTLZWEI_Logo_2019.svg.png" group-title="DE: Vollprogramme",RTL II
+rtsp://192.168.178.74/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,166,128,46,68
+#EXTINF:-1 tvg-id="DE: RTLup" tvg-chno="5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/RTLup_Logo_2021.svg/500px-RTLup_Logo_2021.svg.png" group-title="DE: Unterhaltung",RTL up
+rtsp://192.168.178.74/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,41,70,137,168
+#EXTINF:-1 tvg-id="DE: SAT.1" tvg-chno="6" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Neues_Sat._1_Logo_transparent.png/500px-Neues_Sat._1_Logo_transparent.png" group-title="DE: Vollprogramme",Sat.1
+rtsp://192.168.178.74/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,255,256,96,32
+#EXTINF:-1 tvg-id="DE: SAT.1 GOLD" tvg-chno="7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Sat.1_Gold_Logo_2019.png/500px-Sat.1_Gold_Logo_2019.png" group-title="DE: Unterhaltung",SAT.1 Gold
+rtsp://192.168.178.74/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,1279,1280,100,36
+#EXTINF:-1 tvg-id="DE: Kabel Eins" tvg-chno="8" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Kabel_eins_Logo_2015.svg/500px-Kabel_eins_Logo_2015.svg.png" group-title="DE: Vollprogramme",Kabel Eins
+rtsp://192.168.178.74/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,767,768,98,34
+#EXTINF:-1 tvg-id="DE: Kabel Eins Doku" tvg-chno="9" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Kabel_Eins_Doku_Logo.svg/500px-Kabel_Eins_Doku_Logo.svg.png" group-title="DE: Doku",Kabel Eins Doku
+rtsp://192.168.178.74/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,41,105,2559,2560
+#EXTINF:-1 tvg-id="DE: ProSieben" tvg-chno="10" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/ProSieben_Logo_2022.svg/500px-ProSieben_Logo_2022.svg.png" group-title="DE: Vollprogramme",ProSieben
+rtsp://192.168.178.74/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,97,511,512,33
+#EXTINF:-1 tvg-id="DE: ProSieben MAXX" tvg-chno="11" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/ProSieben_Maxx_Logo_2022.svg/500px-ProSieben_Maxx_Logo_2022.svg.png" group-title="DE: Unterhaltung",ProSieben MAXX
+rtsp://192.168.178.74/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,101,1535,1536
+#EXTINF:-1 tvg-id="DE: DMAX" tvg-chno="12" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/DMAX_Logo_2021.svg/500px-DMAX_Logo_2021.svg.png" group-title="DE: Doku",DMAX
+rtsp://192.168.178.74/?src=1&freq=12480&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,3327,3328,108,44
+#EXTINF:-1 tvg-id="DE: VOX" tvg-chno="13" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/VOX_Logo_2016.svg/500px-VOX_Logo_2016.svg.png" group-title="DE: Vollprogramme",VOX
+rtsp://192.168.178.74/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,167,136,47,71
+#EXTINF:-1 tvg-id="DE: VOXup" tvg-chno="14" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/VOXup_Logo_2019.svg/500px-VOXup_Logo_2019.svg.png" group-title="DE: Unterhaltung",VOX up
+rtsp://192.168.178.74/?src=1&freq=12226&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,600,601,602,603
+#EXTINF:-1 tvg-id="DE: SIXX" tvg-chno="15" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Sixx_Logo_2022.svg/500px-Sixx_Logo_2022.svg.png" group-title="DE: Unterhaltung",sixx
+rtsp://192.168.178.74/?src=1&freq=12461&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,767,768,99,35
+#EXTINF:-1 tvg-id="DE: NITRO" tvg-chno="16" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Nitro_Logo_2022.svg/500px-Nitro_Logo_2022.svg.png" group-title="DE: Unterhaltung",NITRO
+rtsp://192.168.178.74/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,173,146,53,84
+#EXTINF:-1 tvg-id="DE: Comedy Central" tvg-chno="17" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Comedy_Central_Logo_2018.svg/500px-Comedy_Central_Logo_2018.svg.png" group-title="DE: Unterhaltung",Comedy Central
+rtsp://192.168.178.74/?src=1&freq=11973&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,416,4061,4062,8190
+#EXTINF:-1 tvg-id="DE: Nick/CC+1" tvg-chno="18" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Nickelodeon_2023.svg/500px-Nickelodeon_2023.svg.png" group-title="DE: Kinder",Nick
+rtsp://192.168.178.74/?src=1&freq=11973&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,420,4101,4102,8190
+#EXTINF:-1 tvg-id="DE: TOGGO plus" tvg-chno="19" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Toggo_plus_Logo_2024.svg/500px-Toggo_plus_Logo_2024.svg.png" group-title="DE: Kinder",TOGGO plus
+rtsp://192.168.178.74/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,58,301,303
+#EXTINF:-1 tvg-id="DE: Super RTL" tvg-chno="20" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/SuperRTL_Logo_2024.svg/500px-SuperRTL_Logo_2024.svg.png" group-title="DE: Kinder",Super RTL
+rtsp://192.168.178.74/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,165,120,45,65
+#EXTINF:-1 tvg-id="DE: Disney Channel" tvg-chno="21" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Disney_Channel_logo_2014.svg/500px-Disney_Channel_logo_2014.svg.png" group-title="DE: Kinder",Disney Channel
+rtsp://192.168.178.74/?src=1&freq=12460&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,115,2047,2048
+#EXTINF:-1 tvg-id="DE: KiKA" tvg-chno="22" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/KiKA_Logo_2012.svg/500px-KiKA_Logo_2012.svg.png" group-title="DE: Kinder",KiKA
+rtsp://192.168.178.74/?src=1&freq=11347&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,6600,6610,6620,6630
+#EXTINF:-1 tvg-id="DE: TELE 5" tvg-chno="23" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Tele_5_Logo_2021.svg/500px-Tele_5_Logo_2021.svg.png" group-title="DE: Unterhaltung",Tele 5
+rtsp://192.168.178.74/?src=1&freq=12480&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,99,1535,1536
+#EXTINF:-1 tvg-id="DE: ARTE" tvg-chno="24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Arte_Logo_2017.svg/500px-Arte_Logo_2017.svg.png" group-title="DE: Unterhaltung",Arte
+rtsp://192.168.178.74/?src=1&freq=11494&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5110,5111,5112,5113
+#EXTINF:-1 tvg-id="DE: Phoenix" tvg-chno="25" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Phoenix_2018.svg/500px-Phoenix_2018.svg.png" group-title="DE: Nachrichten",Phoenix
+rtsp://192.168.178.74/?src=1&freq=11583&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5260,5261,5262
+#EXTINF:-1 tvg-id="DE: Crime Time" tvg-chno="26" tvg-logo="https://image-service.gbcomcdn.com/Z6b22D8bNLRY4kf5_Djn6StX3JA=/1920x0/filters:quality(90)/https://gbcomcdn.com/uploads/production/5f574a8de2f9196327ad89f7/2023/06/logo_crime-time_color.png" group-title="DE: Unterhaltung",Crime Time
+rtsp://192.168.178.74/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,107,3071,3072
+#EXTINF:-1 tvg-id="DE: N24 Doku" tvg-chno="27" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/N24_Doku_Logo_2016.png/500px-N24_Doku_Logo_2016.png" group-title="DE: Doku",N24 Doku
+rtsp://192.168.178.74/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,99,1023,1024
+#EXTINF:-1 tvg-id="DE: n-tv" tvg-chno="28" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/N-tv_Logo_2021.svg/500px-N-tv_Logo_2021.svg.png" group-title="DE: Nachrichten",n-tv
+rtsp://192.168.178.74/?src=1&freq=12187&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,48,169,73
+
+# --- DEUTSCHLAND: REGIONAL ---
+#EXTINF:-1 tvg-id="DE: rbb Berlin" tvg-chno="29" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Rbb_Fernsehen_2017.svg/500px-Rbb_Fernsehen_2017.svg.png" group-title="DE: Regional",RBB Berlin
+rtsp://192.168.178.74/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5310,5311,5312,5314
+#EXTINF:-1 tvg-id="DE: 3sat" tvg-chno="30" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/500px-3sat_2019.svg.png" group-title="DE: Vollprogramme",3sat
+rtsp://192.168.178.74/?src=1&freq=11347&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,6500,6510,6520,6530
+#EXTINF:-1 tvg-id="DE: ZDFinfo" tvg-chno="31" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/ZDFinfo_Logo_2011.svg/500px-ZDFinfo_Logo_2011.svg.png" group-title="DE: Doku",ZDF info
 rtsp://192.168.178.74/?src=1&freq=11347&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,6700,6710,6720,6730
-#EXTINF:0,zdf_neo HD
+#EXTINF:-1 tvg-id="DE: ZDFneo" tvg-chno="32" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/ZDFneo_Logo_2017.svg/500px-ZDFneo_Logo_2017.svg.png" group-title="DE: Unterhaltung",ZDF neo
 rtsp://192.168.178.74/?src=1&freq=11362&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,6300,6310,6320,6330
-#EXTINF:0,Zwei Music
-rtsp://192.168.178.74/?src=1&freq=12148&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,100,3071,3072
+#EXTINF:-1 tvg-id="DE: ARD alpha" tvg-chno="33" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/ARD_alpha_Logo_2014.svg/500px-ARD_alpha_Logo_2014.svg.png" group-title="DE: Doku",ARD-alpha
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,5420,5421,5422,5423,5424,5426,5427
+#EXTINF:-1 tvg-id="DE: Tagesschau24" tvg-chno="34" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Tagesschau24_Logo_2012.svg/500px-Tagesschau24_Logo_2012.svg.png" group-title="DE: Nachrichten",Tagesschau 24
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,5400,5401,5402
+#EXTINF:-1 tvg-id="DE: WELT" tvg-chno="35" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Welt_2018.svg/500px-Welt_2018.svg.png" group-title="DE: Nachrichten",WELT
+rtsp://192.168.178.74/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,99,1023,1024
+#EXTINF:-1 tvg-id="DE: ONE" tvg-chno="36" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/One_2022.svg/500px-One_2022.svg.png" group-title="DE: Unterhaltung",ONE
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,5410,5411,5412
+#EXTINF:-1 tvg-id="DE: MDR Sachsen" tvg-chno="37" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/MDR_Fernsehen_Logo_2017.svg/500px-MDR_Fernsehen_Logo_2017.svg.png" group-title="DE: Regional",MDR
+rtsp://192.168.178.74/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5330,5331,5332,5334
+#EXTINF:-1 tvg-id="DE: WDR Köln" tvg-chno="38" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/WDR_Fernsehen_2016.svg/500px-WDR_Fernsehen_2016.svg.png" group-title="DE: Regional",WDR
+rtsp://192.168.178.74/?src=1&freq=11523&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,100,101,102,103,104,106,107
+#EXTINF:-1 tvg-id="DE: SWR BW" tvg-chno="39" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SWR_Fernsehen_2014.svg/500px-SWR_Fernsehen_2014.svg.png" group-title="DE: Regional",SWR
+rtsp://192.168.178.74/?src=1&freq=11494&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5121,5122,5120,5124
+#EXTINF:-1 tvg-id="DE: SR" tvg-chno="40" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/SR_Fernsehen_Logo_2023.svg/500px-SR_Fernsehen_Logo_2023.svg.png" group-title="DE: Regional",SR
+rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,5430,5431,5432,5433,5434,5436,5437
+
+# --- MUSIK & SPORT ---
+#EXTINF:-1 tvg-id="30_Minutes" tvg-chno="41" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/VIVA_Logo_blue-yellow_solid.svg/1558px-VIVA_Logo_blue-yellow_solid.svg.png" group-title="DE: Musik",VIVA
+rtsp://192.168.178.74/?src=1&freq=11973&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,416,4061,4062,8190
+#EXTINF:-1 tvg-id="DE: MTV" tvg-chno="42" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/MTV_Logo_2021.svg/500px-MTV_Logo_2021.svg.png" group-title="DE: Musik",MTV
+rtsp://192.168.178.74/?src=1&freq=11973&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,411,4081,4082,4083
+#EXTINF:-1 tvg-id="DE: Deluxe Music" tvg-chno="43" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Deluxe_Music_Logo.svg/500px-Deluxe_Music_Logo.svg.png" group-title="DE: Musik",Deluxe Music
+rtsp://192.168.178.74/?src=1&freq=12148&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,99,3327,3328
+#EXTINF:-1 tvg-id="30_Minutes" tvg-chno="44" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Deluxe_Dance_by_Kontor_Logo_2023.svg/1777px-Deluxe_Dance_by_Kontor_Logo_2023.svg.png" group-title="DE: Musik",Deluxe Dance by Kontor
+rtsp://192.168.178.74/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,101,1535,1536
+#EXTINF:-1 tvg-id="30_Minutes" tvg-chno="45" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Deluxe_Flashback_Logo_2023.svg/888px-Deluxe_Flashback_Logo_2023.svg.png" group-title="DE: Musik",Deluxe Flashback
+rtsp://192.168.178.74/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,102,1791,1792
+#EXTINF:-1 tvg-id="30_Minutes" tvg-chno="46" tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/44DAEE39-58EC-483F-AFD2-99539EB8A3F3/3-1x1.png/200?webp=1" group-title="DE: Musik",Deluxe Lounge
+rtsp://192.168.178.74/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,105,2559,2560
+#EXTINF:-1 tvg-id="30_Minutes" tvg-chno="47" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Deluxe_Rap_Logo_2023.svg/1777px-Deluxe_Rap_Logo_2023.svg.png" group-title="DE: Musik",Deluxe Rap
+rtsp://192.168.178.74/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,100,1279,1280
+#EXTINF:-1 tvg-id="30_Minutes" tvg-chno="48" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Deluxe_Rock_Logo_2023.svg/1200px-Deluxe_Rock_Logo_2023.svg.png" group-title="DE: Musik",Deluxe Rock
+rtsp://192.168.178.74/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,99,1023,1024
+#EXTINF:-1 tvg-id="30_Minutes" tvg-chno="49" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Melodie_TV_Logo.svg/1200px-Melodie_TV_Logo.svg.png" group-title="DE: Musik",Melodie TV
+rtsp://192.168.178.74/?src=1&freq=11244&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,229,2290,2291
+#EXTINF:-1 tvg-id="30_Minutes" tvg-chno="50" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/02/Logo_Deutsches_Musik_Fernsehen.png" group-title="DE: Musik",Deutsches Musik Fernsehen HD
+rtsp://192.168.178.74/?src=1&freq=12633&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,105,53,54
+#EXTINF:-1 tvg-id="DE: Eurosport 1" tvg-chno="51" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eurosport_1_Logo_2015.svg/500px-Eurosport_1_Logo_2015.svg.png" group-title="DE: Sport",Eurosport 1
+rtsp://192.168.178.74/?src=1&freq=12227&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,101,103,280,102
+#EXTINF:-1 tvg-id="DE: SPORT1" tvg-chno="52" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sport1_Logo_2024.svg/500px-Sport1_Logo_2024.svg.png" group-title="DE: Sport",Sport1
+rtsp://192.168.178.74/?src=1&freq=12480&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,1023,1024,103,39
+#EXTINF:-1 tvg-id="DE: a.tv" tvg-chno="53" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Augsburg_TV_Logo_2021.svg/500px-Augsburg_TV_Logo_2021.svg.png" group-title="DE: Regional",a.TV
+rtsp://192.168.178.74/?src=1&freq=11552&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,101,1010,1012
+#EXTINF:-1 tvg-id="30_Minutes" tvg-chno="54" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/99/Serien%2B_Logo_2023.png" group-title="DE: Unterhaltung",SERIEN+
+rtsp://192.168.178.74/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,108,3327,3328
+#EXTINF:-1 tvg-id="30_Minutes" tvg-chno="55" tvg-logo="https://oesterreichprogramm.at/wp-content/uploads/2020/09/senderlogo-oesterreichprogramm-krone.tv_.png" group-title="DE: Vollprogramme",krone.tv
+rtsp://192.168.178.74/?src=1&freq=11273&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,313,3130,3131
+#EXTINF:-1 tvg-id="30_Minutes" tvg-chno="56" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/BBC_World_News_2022_%28Boxed%29.svg/1200px-BBC_World_News_2022_%28Boxed%29.svg.png" group-title="DE: Nachrichten",BBC World News
+rtsp://192.168.178.74/?src=1&freq=11229&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,212,2091,2092
+#EXTINF:-1 tvg-id="30_Minutes" tvg-chno="57" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/2048px-CNN_International_logo.svg.png" group-title="DE: Nachrichten",CNN Int.
+rtsp://192.168.178.74/?src=1&freq=11778&pol=v&ro=0.25&msys=dvbs2&mtype=qpsk&plts=off&sr=29500&fec=910&pids=0,17,18,48,95,400
