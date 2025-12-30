@@ -1,115 +1,505 @@
-#EXTM3U
+#EXTM3U x-tvg-url="https://xmltv.info/de/epg.xml"
+# Finale xTeVe Playlist - Alle Sender (SAT, Pluto TV, Rakuten TV)
+# Generiert am: 2025-12-31
+# EPG-Quellen: xmltv.info, PlutoTV, Rakuten UK
+# Anzahl Kanäle: 136+
+
+# ======================
+# DEUTSCHLAND: SAT SENDER (Original-Sortierung)
+# ======================
+
 #EXTINF:-1 tvg-id="DE: Das Erste" tvg-chno="1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Das_Erste_2014.svg/960px-Das_Erste_2014.svg.png" group-title="DE: Vollprogramme",Das Erste
 rtsp://192.168.178.74/?src=1&freq=11494&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5100,5101,5102,5104
+
 #EXTINF:-1 tvg-id="DE: ZDF" tvg-chno="2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/ZDF_logo.svg/960px-ZDF_logo.svg.png" group-title="DE: Vollprogramme",ZDF
 rtsp://192.168.178.74/?src=1&freq=11362&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,6100,6110,6120,6130
+
 #EXTINF:-1 tvg-id="DE: RTL" tvg-chno="3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mediengruppe_RTL_Logo_09.2021.svg/500px-Mediengruppe_RTL_Logo_09.2021.svg.png" group-title="DE: Vollprogramme",RTL
 rtsp://192.168.178.74/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,163,104,44,105
+
 #EXTINF:-1 tvg-id="DE: RTL ZWEI" tvg-chno="4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/500px-RTLZWEI_Logo_2019.svg.png" group-title="DE: Vollprogramme",RTL II
 rtsp://192.168.178.74/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,166,128,46,68
+
 #EXTINF:-1 tvg-id="DE: RTLup" tvg-chno="5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/RTLup_Logo_2021.svg/500px-RTLup_Logo_2021.svg.png" group-title="DE: Unterhaltung",RTL up
 rtsp://192.168.178.74/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,41,70,137,168
+
 #EXTINF:-1 tvg-id="DE: SAT.1" tvg-chno="6" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Neues_Sat._1_Logo_transparent.png/500px-Neues_Sat._1_Logo_transparent.png" group-title="DE: Vollprogramme",Sat.1
 rtsp://192.168.178.74/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,255,256,96,32
-#EXTINF:-1 tvg-id="DE: SAT.1 GOLD" tvg-chno="7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Sat.1_Gold_Logo_2019.png/500px-Sat.1_Gold_Logo_2019.png" group-title="DE: Unterhaltung",SAT.1 Gold
+
+#EXTINF:-1 tvg-id="DE: SAT.1 GOLD" tvg-chno="7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/SAT.1_Gold_2019.svg/500px-SAT.1_Gold_2019.svg.png" group-title="DE: Unterhaltung",SAT.1 Gold
 rtsp://192.168.178.74/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,1279,1280,100,36
-#EXTINF:-1 tvg-id="DE: Kabel Eins" tvg-chno="8" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Kabel_eins_Logo_2015.svg/500px-Kabel_eins_Logo_2015.svg.png" group-title="DE: Vollprogramme",Kabel Eins
+
+#EXTINF:-1 tvg-id="DE: Kabel Eins" tvg-chno="8" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Kabel_eins_Logo_2015.svg/500px-Kabel_eins_Logo_2015.svg.png" group-title="DE: Vollprogramme",Kabel Eins
 rtsp://192.168.178.74/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,767,768,98,34
-#EXTINF:-1 tvg-id="DE: Kabel Eins Doku" tvg-chno="9" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Kabel_Eins_Doku_Logo.svg/500px-Kabel_Eins_Doku_Logo.svg.png" group-title="DE: Doku",Kabel Eins Doku
+
+#EXTINF:-1 tvg-id="DE: Kabel Eins Doku" tvg-chno="9" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Kabel_eins_Doku_Logo_2016.svg/500px-Kabel_eins_Doku_Logo_2016.svg.png" group-title="DE: Doku",Kabel Eins Doku
 rtsp://192.168.178.74/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,41,105,2559,2560
-#EXTINF:-1 tvg-id="DE: ProSieben" tvg-chno="10" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/ProSieben_Logo_2022.svg/500px-ProSieben_Logo_2022.svg.png" group-title="DE: Vollprogramme",ProSieben
+
+#EXTINF:-1 tvg-id="DE: ProSieben" tvg-chno="10" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/ProSieben_Logo_2015.svg/500px-ProSieben_Logo_2015.svg.png" group-title="DE: Vollprogramme",ProSieben
 rtsp://192.168.178.74/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,97,511,512,33
-#EXTINF:-1 tvg-id="DE: ProSieben MAXX" tvg-chno="11" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/ProSieben_Maxx_Logo_2022.svg/500px-ProSieben_Maxx_Logo_2022.svg.png" group-title="DE: Unterhaltung",ProSieben MAXX
+
+#EXTINF:-1 tvg-id="DE: ProSieben MAXX" tvg-chno="11" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/ProSieben_MAXX_Logo.svg/500px-ProSieben_MAXX_Logo.svg.png" group-title="DE: Unterhaltung",ProSieben MAXX
 rtsp://192.168.178.74/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,101,1535,1536
-#EXTINF:-1 tvg-id="DE: DMAX" tvg-chno="12" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/DMAX_Logo_2021.svg/500px-DMAX_Logo_2021.svg.png" group-title="DE: Doku",DMAX
+
+#EXTINF:-1 tvg-id="DE: DMAX" tvg-chno="12" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/DMAX_BLACK.svg/500px-DMAX_BLACK.svg.png" group-title="DE: Doku",DMAX
 rtsp://192.168.178.74/?src=1&freq=12480&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,3327,3328,108,44
-#EXTINF:-1 tvg-id="DE: VOX" tvg-chno="13" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/VOX_Logo_2016.svg/500px-VOX_Logo_2016.svg.png" group-title="DE: Vollprogramme",VOX
+
+#EXTINF:-1 tvg-id="DE: VOX" tvg-chno="13" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/VOX_Logo_2013.svg/500px-VOX_Logo_2013.svg.png" group-title="DE: Vollprogramme",VOX
 rtsp://192.168.178.74/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,167,136,47,71
-#EXTINF:-1 tvg-id="DE: VOXup" tvg-chno="14" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/VOXup_Logo_2019.svg/500px-VOXup_Logo_2019.svg.png" group-title="DE: Unterhaltung",VOX up
+
+#EXTINF:-1 tvg-id="DE: VOXup" tvg-chno="14" tvg-logo="https://upload.wikimedia.org/wikipedia/de/thumb/7/77/Voxup_Logo_2019.svg/500px-Voxup_Logo_2019.svg.png" group-title="DE: Unterhaltung",VOX up
 rtsp://192.168.178.74/?src=1&freq=12226&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,600,601,602,603
-#EXTINF:-1 tvg-id="DE: SIXX" tvg-chno="15" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Sixx_Logo_2022.svg/500px-Sixx_Logo_2022.svg.png" group-title="DE: Unterhaltung",sixx
+
+#EXTINF:-1 tvg-id="DE: SIXX" tvg-chno="15" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Sixx_Logo.svg/500px-Sixx_Logo.svg.png" group-title="DE: Unterhaltung",sixx
 rtsp://192.168.178.74/?src=1&freq=12461&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,767,768,99,35
-#EXTINF:-1 tvg-id="DE: NITRO" tvg-chno="16" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Nitro_Logo_2022.svg/500px-Nitro_Logo_2022.svg.png" group-title="DE: Unterhaltung",NITRO
+
+#EXTINF:-1 tvg-id="DE: NITRO" tvg-chno="16" tvg-logo="https://upload.wikimedia.org/wikipedia/de/1/1a/Nitro_Logo.svg" group-title="DE: Unterhaltung",NITRO
 rtsp://192.168.178.74/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,173,146,53,84
-#EXTINF:-1 tvg-id="DE: Comedy Central" tvg-chno="17" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Comedy_Central_Logo_2018.svg/500px-Comedy_Central_Logo_2018.svg.png" group-title="DE: Unterhaltung",Comedy Central
+
+#EXTINF:-1 tvg-id="DE: Comedy Central" tvg-chno="17" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Comedy_Central_2018.svg/500px-Comedy_Central_2018.svg.png" group-title="DE: Unterhaltung",Comedy Central
 rtsp://192.168.178.74/?src=1&freq=11973&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,416,4061,4062,8190
-#EXTINF:-1 tvg-id="DE: Nick/CC+1" tvg-chno="18" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Nickelodeon_2023.svg/500px-Nickelodeon_2023.svg.png" group-title="DE: Kinder",Nick
+
+#EXTINF:-1 tvg-id="DE: Nick/CC+1" tvg-chno="18" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Nickelodeon_2023_logo_%28outline%29.svg/500px-Nickelodeon_2023_logo_%28outline%29.svg.png" group-title="DE: Kinder",Nick
 rtsp://192.168.178.74/?src=1&freq=11973&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,420,4101,4102,8190
-#EXTINF:-1 tvg-id="DE: TOGGO plus" tvg-chno="19" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Toggo_plus_Logo_2024.svg/500px-Toggo_plus_Logo_2024.svg.png" group-title="DE: Kinder",TOGGO plus
+
+#EXTINF:-1 tvg-id="DE: TOGGO plus" tvg-chno="19" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/ToggoPlus_Logo_2019.svg/500px-ToggoPlus_Logo_2019.svg.png" group-title="DE: Kinder",TOGGO plus
 rtsp://192.168.178.74/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,58,301,303
-#EXTINF:-1 tvg-id="DE: Super RTL" tvg-chno="20" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/SuperRTL_Logo_2024.svg/500px-SuperRTL_Logo_2024.svg.png" group-title="DE: Kinder",Super RTL
+
+#EXTINF:-1 tvg-id="DE: Super RTL" tvg-chno="20" tvg-logo="https://upload.wikimedia.org/wikipedia/de/9/96/Super_RTL_Logo_orange_2019.svg" group-title="DE: Kinder",Super RTL
 rtsp://192.168.178.74/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,165,120,45,65
-#EXTINF:-1 tvg-id="DE: Disney Channel" tvg-chno="21" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Disney_Channel_logo_2014.svg/500px-Disney_Channel_logo_2014.svg.png" group-title="DE: Kinder",Disney Channel
+
+#EXTINF:-1 tvg-id="DE: Disney Channel" tvg-chno="21" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/2024_Disney_Channel_text_logo.svg/500px-2024_Disney_Channel_text_logo.svg.png" group-title="DE: Kinder",Disney Channel
 rtsp://192.168.178.74/?src=1&freq=12460&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,115,2047,2048
-#EXTINF:-1 tvg-id="DE: KiKA" tvg-chno="22" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/KiKA_Logo_2012.svg/500px-KiKA_Logo_2012.svg.png" group-title="DE: Kinder",KiKA
+
+#EXTINF:-1 tvg-id="DE: KiKA" tvg-chno="22" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Kika_2012.svg/500px-Kika_2012.svg.png" group-title="DE: Kinder",KiKA
 rtsp://192.168.178.74/?src=1&freq=11347&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,6600,6610,6620,6630
-#EXTINF:-1 tvg-id="DE: TELE 5" tvg-chno="23" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Tele_5_Logo_2021.svg/500px-Tele_5_Logo_2021.svg.png" group-title="DE: Unterhaltung",Tele 5
+
+#EXTINF:-1 tvg-id="DE: TELE 5" tvg-chno="23" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Tele_5_Logo_2021.svg/500px-Tele_5_Logo_2021.svg.png" group-title="DE: Unterhaltung",Tele 5
 rtsp://192.168.178.74/?src=1&freq=12480&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,99,1535,1536
-#EXTINF:-1 tvg-id="DE: ARTE" tvg-chno="24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Arte_Logo_2017.svg/500px-Arte_Logo_2017.svg.png" group-title="DE: Unterhaltung",Arte
+
+#EXTINF:-1 tvg-id="DE: ARTE" tvg-chno="24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Arte_Logo_2017.svg/120px-Arte_Logo_2017.svg.png" group-title="DE: Unterhaltung",Arte
 rtsp://192.168.178.74/?src=1&freq=11494&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5110,5111,5112,5113
-#EXTINF:-1 tvg-id="DE: Phoenix" tvg-chno="25" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Phoenix_2018.svg/500px-Phoenix_2018.svg.png" group-title="DE: Nachrichten",Phoenix
+
+#EXTINF:-1 tvg-id="DE: Phoenix" tvg-chno="25" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Phoenix-logo-2018.svg/500px-Phoenix-logo-2018.svg.png" group-title="DE: Nachrichten",Phoenix
 rtsp://192.168.178.74/?src=1&freq=11583&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5260,5261,5262
-#EXTINF:-1 tvg-id="DE: Crime Time" tvg-chno="26" tvg-logo="https://image-service.gbcomcdn.com/Z6b22D8bNLRY4kf5_Djn6StX3JA=/1920x0/filters:quality(90)/https://gbcomcdn.com/uploads/production/5f574a8de2f9196327ad89f7/2023/06/logo_crime-time_color.png" group-title="DE: Unterhaltung",Crime Time
+
+#EXTINF:-1 tvg-id="DE: Crime Time" tvg-chno="26" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b5/Crime_Time.png/revision/latest/scale-to-width-down/1000?cb=20231201004946" group-title="DE: Unterhaltung",Crime Time
 rtsp://192.168.178.74/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,107,3071,3072
-#EXTINF:-1 tvg-id="DE: N24 Doku" tvg-chno="27" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/N24_Doku_Logo_2016.png/500px-N24_Doku_Logo_2016.png" group-title="DE: Doku",N24 Doku
+
+#EXTINF:-1 tvg-id="DE: N24 Doku" tvg-chno="27" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/20/N24_logo.svg" group-title="DE: Doku",N24 Doku
 rtsp://192.168.178.74/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,99,1023,1024
-#EXTINF:-1 tvg-id="DE: n-tv" tvg-chno="28" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/N-tv_Logo_2021.svg/500px-N-tv_Logo_2021.svg.png" group-title="DE: Nachrichten",n-tv
+
+#EXTINF:-1 tvg-id="DE: n-tv" tvg-chno="28" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/N-tv_logo-september2017.svg/500px-N-tv_logo-september2017.svg.png" group-title="DE: Nachrichten",n-tv
 rtsp://192.168.178.74/?src=1&freq=12187&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,48,169,73
-#EXTINF:-1 tvg-id="DE: rbb Berlin" tvg-chno="29" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Rbb_Fernsehen_2017.svg/500px-Rbb_Fernsehen_2017.svg.png" group-title="DE: Regional",RBB Berlin
+
+#EXTINF:-1 tvg-id="DE: rbb Berlin" tvg-chno="29" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/RBB_Berlin_Logo.svg/500px-RBB_Berlin_Logo.svg.png" group-title="DE: Regional",RBB Berlin
 rtsp://192.168.178.74/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5310,5311,5312,5314
+
 #EXTINF:-1 tvg-id="DE: 3sat" tvg-chno="30" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/500px-3sat_2019.svg.png" group-title="DE: Vollprogramme",3sat
 rtsp://192.168.178.74/?src=1&freq=11347&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,6500,6510,6520,6530
-#EXTINF:-1 tvg-id="DE: ZDFinfo" tvg-chno="31" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/ZDFinfo_Logo_2011.svg/500px-ZDFinfo_Logo_2011.svg.png" group-title="DE: Doku",ZDF info
+
+#EXTINF:-1 tvg-id="DE: ZDFinfo" tvg-chno="31" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/ZDFinfo_2011.svg/500px-ZDFinfo_2011.svg.png" group-title="DE: Doku",ZDF info
 rtsp://192.168.178.74/?src=1&freq=11347&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,6700,6710,6720,6730
-#EXTINF:-1 tvg-id="DE: ZDFneo" tvg-chno="32" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/ZDFneo_Logo_2017.svg/500px-ZDFneo_Logo_2017.svg.png" group-title="DE: Unterhaltung",ZDF neo
+
+#EXTINF:-1 tvg-id="DE: ZDFneo" tvg-chno="32" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/ZDFneo2017_Logo.svg/500px-ZDFneo2017_Logo.svg.png" group-title="DE: Unterhaltung",ZDF neo
 rtsp://192.168.178.74/?src=1&freq=11362&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,6300,6310,6320,6330
-#EXTINF:-1 tvg-id="DE: ARD alpha" tvg-chno="33" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/ARD_alpha_Logo_2014.svg/500px-ARD_alpha_Logo_2014.svg.png" group-title="DE: Doku",ARD-alpha
+
+#EXTINF:-1 tvg-id="DE: ARD alpha" tvg-chno="33" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ARD_alpha.svg/500px-ARD_alpha.svg.png" group-title="DE: Doku",ARD-alpha
 rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,5420,5421,5422,5423,5424,5426,5427
-#EXTINF:-1 tvg-id="DE: Tagesschau24" tvg-chno="34" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Tagesschau24_Logo_2012.svg/500px-Tagesschau24_Logo_2012.svg.png" group-title="DE: Nachrichten",Tagesschau 24
+
+#EXTINF:-1 tvg-id="DE: Tagesschau24" tvg-chno="34" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tagesschau24-2012.svg/500px-Tagesschau24-2012.svg.png" group-title="DE: Nachrichten",Tagesschau 24
 rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,5400,5401,5402
-#EXTINF:-1 tvg-id="DE: WELT" tvg-chno="35" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Welt_2018.svg/500px-Welt_2018.svg.png" group-title="DE: Nachrichten",WELT
+
+#EXTINF:-1 tvg-id="DE: WELT" tvg-chno="35" tvg-logo="https://upload.wikimedia.org/wikipedia/de/thumb/1/1a/Welt_TV_Logo_2016.svg/500px-Welt_TV_Logo_2016.svg.png" group-title="DE: Nachrichten",WELT
 rtsp://192.168.178.74/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,99,1023,1024
-#EXTINF:-1 tvg-id="DE: ONE" tvg-chno="36" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/One_2022.svg/500px-One_2022.svg.png" group-title="DE: Unterhaltung",ONE
+
+#EXTINF:-1 tvg-id="DE: ONE" tvg-chno="36" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/One_2022.svg/500px-One_2022.svg.png" group-title="DE: Unterhaltung",ONE
 rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,5410,5411,5412
-#EXTINF:-1 tvg-id="DE: MDR Sachsen" tvg-chno="37" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/MDR_Fernsehen_Logo_2017.svg/500px-MDR_Fernsehen_Logo_2017.svg.png" group-title="DE: Regional",MDR
+
+#EXTINF:-1 tvg-id="DE: MDR Sachsen" tvg-chno="37" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/MDR_Logo_2017.svg/500px-MDR_Logo_2017.svg.png" group-title="DE: Regional",MDR
 rtsp://192.168.178.74/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5330,5331,5332,5334
-#EXTINF:-1 tvg-id="DE: WDR Köln" tvg-chno="38" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/WDR_Fernsehen_2016.svg/500px-WDR_Fernsehen_2016.svg.png" group-title="DE: Regional",WDR
+
+#EXTINF:-1 tvg-id="DE: WDR Köln" tvg-chno="38" tvg-logo="https://upload.wikimedia.org/wikipedia/de/thumb/2/29/WDR_Fernsehen_Logo_2018.svg/500px-WDR_Fernsehen_Logo_2018.svg.png" group-title="DE: Regional",WDR
 rtsp://192.168.178.74/?src=1&freq=11523&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,100,101,102,103,104,106,107
-#EXTINF:-1 tvg-id="DE: SWR BW" tvg-chno="39" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SWR_Fernsehen_2014.svg/500px-SWR_Fernsehen_2014.svg.png" group-title="DE: Regional",SWR
+
+#EXTINF:-1 tvg-id="DE: SWR BW" tvg-chno="39" tvg-logo="https://upload.wikimedia.org/wikipedia/de/thumb/9/94/SWR_Logo_2023.svg/500px-SWR_Logo_2023.svg.png" group-title="DE: Regional",SWR
 rtsp://192.168.178.74/?src=1&freq=11494&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5121,5122,5120,5124
-#EXTINF:-1 tvg-id="DE: SR" tvg-chno="40" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/SR_Fernsehen_Logo_2023.svg/500px-SR_Fernsehen_Logo_2023.svg.png" group-title="DE: Regional",SR
+
+#EXTINF:-1 tvg-id="DE: SR" tvg-chno="40" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/SR_Fernsehen_Logo_2023.svg/500px-SR_Fernsehen_Logo_2023.svg.png" group-title="DE: Regional",SR
 rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,5430,5431,5432,5433,5434,5436,5437
-#EXTINF:-1 tvg-id="30_Minutes" tvg-chno="41" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/VIVA_Logo_blue-yellow_solid.svg/1558px-VIVA_Logo_blue-yellow_solid.svg.png" group-title="DE: Musik",VIVA
+
+#EXTINF:-1 tvg-id="DE: VIVA" tvg-chno="41" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/VIVA_TV_Logo_2002.svg/960px-VIVA_TV_Logo_2002.svg.png" group-title="DE: Musik",VIVA
 rtsp://192.168.178.74/?src=1&freq=11973&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,416,4061,4062,8190
-#EXTINF:-1 tvg-id="DE: MTV" tvg-chno="42" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/MTV_Logo_2021.svg/500px-MTV_Logo_2021.svg.png" group-title="DE: Musik",MTV
+
+#EXTINF:-1 tvg-id="DE: MTV" tvg-chno="42" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/MTV-2021.svg/500px-MTV-2021.svg.png" group-title="DE: Musik",MTV
 rtsp://192.168.178.74/?src=1&freq=11973&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,411,4081,4082,4083
-#EXTINF:-1 tvg-id="DE: Deluxe Music" tvg-chno="43" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Deluxe_Music_Logo.svg/500px-Deluxe_Music_Logo.svg.png" group-title="DE: Musik",Deluxe Music
+
+#EXTINF:-1 tvg-id="DE: Deluxe Music" tvg-chno="43" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Deluxe_Music_Logo_2019.svg/330px-Deluxe_Music_Logo_2019.svg.png" group-title="DE: Musik",Deluxe Music
 rtsp://192.168.178.74/?src=1&freq=12148&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,99,3327,3328
-#EXTINF:-1 tvg-id="30_Minutes" tvg-chno="44" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Deluxe_Dance_by_Kontor_Logo_2023.svg/1777px-Deluxe_Dance_by_Kontor_Logo_2023.svg.png" group-title="DE: Musik",Deluxe Dance by Kontor
+
+#EXTINF:-1 tvg-id="DE: Deluxe Dance by Kontor" tvg-chno="44" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Deluxe_Dance_by_Kontor_Logo_2023.svg/1777px-Deluxe_Dance_by_Kontor_Logo_2023.svg.png" group-title="DE: Musik",Deluxe Dance by Kontor
 rtsp://192.168.178.74/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,101,1535,1536
-#EXTINF:-1 tvg-id="30_Minutes" tvg-chno="45" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Deluxe_Flashback_Logo_2023.svg/888px-Deluxe_Flashback_Logo_2023.svg.png" group-title="DE: Musik",Deluxe Flashback
+
+#EXTINF:-1 tvg-id="DE: Deluxe Flashback" tvg-chno="45" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Deluxe_Flashback_Logo_2023.svg/1777px-Deluxe_Flashback_Logo_2023.svg.png" group-title="DE: Musik",Deluxe Flashback
 rtsp://192.168.178.74/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,102,1791,1792
-#EXTINF:-1 tvg-id="30_Minutes" tvg-chno="46" tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/44DAEE39-58EC-483F-AFD2-99539EB8A3F3/3-1x1.png/200?webp=1" group-title="DE: Musik",Deluxe Lounge
+
+#EXTINF:-1 tvg-id="DE: Deluxe Lounge" tvg-chno="46" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Deluxe_Lounge_Logo_2021.svg/1774px-Deluxe_Lounge_Logo_2021.svg.png" group-title="DE: Musik",Deluxe Lounge
 rtsp://192.168.178.74/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,105,2559,2560
-#EXTINF:-1 tvg-id="30_Minutes" tvg-chno="47" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Deluxe_Rap_Logo_2023.svg/1777px-Deluxe_Rap_Logo_2023.svg.png" group-title="DE: Musik",Deluxe Rap
+
+#EXTINF:-1 tvg-id="DE: Deluxe Rap" tvg-chno="47" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Deluxe_Rap_Logo_2023.svg/1777px-Deluxe_Rap_Logo_2023.svg.png" group-title="DE: Musik",Deluxe Rap
 rtsp://192.168.178.74/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,100,1279,1280
-#EXTINF:-1 tvg-id="30_Minutes" tvg-chno="48" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Deluxe_Rock_Logo_2023.svg/1200px-Deluxe_Rock_Logo_2023.svg.png" group-title="DE: Musik",Deluxe Rock
+
+#EXTINF:-1 tvg-id="DE: Deluxe Rock" tvg-chno="48" tvg-logo="https://upload.wikimedia.org/wikipedia/de/thumb/7/71/Deluxe_Rock_Logo_2023.svg/500px-Deluxe_Rock_Logo_2023.svg.png" group-title="DE: Musik",Deluxe Rock
 rtsp://192.168.178.74/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,99,1023,1024
-#EXTINF:-1 tvg-id="30_Minutes" tvg-chno="49" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Melodie_TV_Logo.svg/1200px-Melodie_TV_Logo.svg.png" group-title="DE: Musik",Melodie TV
+
+#EXTINF:-1 tvg-id="DE: Melodie TV" tvg-chno="49" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Melodie_TV_Logo.svg/1200px-Melodie_TV_Logo.svg.png" group-title="DE: Musik",Melodie TV
 rtsp://192.168.178.74/?src=1&freq=11244&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,229,2290,2291
-#EXTINF:-1 tvg-id="30_Minutes" tvg-chno="50" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/02/Logo_Deutsches_Musik_Fernsehen.png" group-title="DE: Musik",Deutsches Musik Fernsehen HD
+
+#EXTINF:-1 tvg-id="DE: Deutsches Musik Fernsehen HD" tvg-chno="50" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/02/Logo_Deutsches_Musik_Fernsehen.png" group-title="DE: Musik",Deutsches Musik Fernsehen HD
 rtsp://192.168.178.74/?src=1&freq=12633&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,105,53,54
+
 #EXTINF:-1 tvg-id="DE: Eurosport 1" tvg-chno="51" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eurosport_1_Logo_2015.svg/500px-Eurosport_1_Logo_2015.svg.png" group-title="DE: Sport",Eurosport 1
 rtsp://192.168.178.74/?src=1&freq=12227&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,101,103,280,102
+
 #EXTINF:-1 tvg-id="DE: SPORT1" tvg-chno="52" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sport1_Logo_2024.svg/500px-Sport1_Logo_2024.svg.png" group-title="DE: Sport",Sport1
 rtsp://192.168.178.74/?src=1&freq=12480&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,1023,1024,103,39
+
 #EXTINF:-1 tvg-id="DE: a.tv" tvg-chno="53" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Augsburg_TV_Logo_2021.svg/500px-Augsburg_TV_Logo_2021.svg.png" group-title="DE: Regional",a.TV
 rtsp://192.168.178.74/?src=1&freq=11552&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,101,1010,1012
-#EXTINF:-1 tvg-id="30_Minutes" tvg-chno="54" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/99/Serien%2B_Logo_2023.png" group-title="DE: Unterhaltung",SERIEN+
+
+#EXTINF:-1 tvg-id="DE: SERIEN+" tvg-chno="54" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Serien%2B_Logo_2023.png/1200px-Serien%2B_Logo_2023.png" group-title="DE: Unterhaltung",SERIEN+
 rtsp://192.168.178.74/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=34&pids=0,17,18,108,3327,3328
-#EXTINF:-1 tvg-id="30_Minutes" tvg-chno="55" tvg-logo="https://oesterreichprogramm.at/wp-content/uploads/2020/09/senderlogo-oesterreichprogramm-krone.tv_.png" group-title="DE: Vollprogramme",krone.tv
+
+#EXTINF:-1 tvg-id="DE: krone.tv" tvg-chno="55" tvg-logo="https://oesterreichprogramm.at/wp-content/uploads/2020/09/senderlogo-oesterreichprogramm-krone.tv_.png" group-title="DE: Vollprogramme",krone.tv
 rtsp://192.168.178.74/?src=1&freq=11273&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,313,3130,3131
-#EXTINF:-1 tvg-id="30_Minutes" tvg-chno="56" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/BBC_World_News_2022_%28Boxed%29.svg/1200px-BBC_World_News_2022_%28Boxed%29.svg.png" group-title="DE: Nachrichten",BBC World News
+
+#EXTINF:-1 tvg-id="DE: BBC World News" tvg-chno="56" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/BBC_World_News.svg/960px-BBC_World_News.svg.png" group-title="DE: Nachrichten",BBC World News
 rtsp://192.168.178.74/?src=1&freq=11229&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,212,2091,2092
-#EXTINF:-1 tvg-id="30_Minutes" tvg-chno="57" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/2048px-CNN_International_logo.svg.png" group-title="DE: Nachrichten",CNN Int.
+
+#EXTINF:-1 tvg-id="DE: CNN International" tvg-chno="57" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/1280px-CNN.svg.png" group-title="DE: Nachrichten",CNN Int.
 rtsp://192.168.178.74/?src=1&freq=11778&pol=v&ro=0.25&msys=dvbs2&mtype=qpsk&plts=off&sr=29500&fec=910&pids=0,17,18,48,95,400
+
+# ======================
+# PLUTO TV KANÄLE
+# EPG-Quelle: https://i.mjh.nz/PlutoTV/de.xml
+# ======================
+
+# === Entertainment & Comedy ===
+#EXTINF:-1 tvg-id="5d767ab2b456c8cf265ce921" tvg-chno="100" tvg-logo="https://images.pluto.tv/channels/5d767ab2b456c8cf265ce921/colorLogoPNG.png" group-title="Pluto TV Entertainment",Pluto TV Sitcoms
+http://example.com/pluto/sitcoms
+
+#EXTINF:-1 tvg-id="6672f49f61a39900089db68e" tvg-chno="101" tvg-logo="https://images.pluto.tv/channels/6672f49f61a39900089db68e/colorLogoPNG_1748857141516.png" group-title="Pluto TV Entertainment",Pluto TV Deutsche Comedy
+http://example.com/pluto/decomedy
+
+#EXTINF:-1 tvg-id="663e09b341af640008c1b68c" tvg-chno="102" tvg-logo="https://images.pluto.tv/channels/663e09b341af640008c1b68c/colorLogoPNG.png" group-title="Pluto TV Entertainment",Stand-up Comedy
+http://example.com/pluto/standup
+
+#EXTINF:-1 tvg-id="65a67d7d33ea86000831a21d" tvg-chno="103" tvg-logo="https://images.pluto.tv/channels/65a67d7d33ea86000831a21d/colorLogoPNG.png" group-title="Pluto TV Entertainment",Schitt's creek
+http://example.com/pluto/schittscreek
+
+#EXTINF:-1 tvg-id="5d4947590ba40f75dc29c26b" tvg-chno="104" tvg-logo="https://images.pluto.tv/channels/5d4947590ba40f75dc29c26b/colorLogoPNG.png" group-title="Pluto TV Entertainment",CC Pluto TV
+http://example.com/pluto/cc
+
+# === Serien & Shows ===
+#EXTINF:-1 tvg-id="5dc190f7bfed110009d934c3" tvg-chno="105" tvg-logo="https://images.pluto.tv/channels/5dc190f7bfed110009d934c3/colorLogoPNG.png" group-title="Pluto TV Serien",Pluto TV Serie
+http://example.com/pluto/serie
+
+#EXTINF:-1 tvg-id="68ada3395190a45dc9c445cf" tvg-chno="106" tvg-logo="https://images.pluto.tv/channels/68ada3395190a45dc9c445cf/colorLogoPNG_1760957063422.png" group-title="Pluto TV Serien",Pluto TV Historische Serien
+http://example.com/pluto/historyseries
+
+#EXTINF:-1 tvg-id="677e5a3d7bffa6000808dbf2" tvg-chno="107" tvg-logo="https://images.pluto.tv/channels/677e5a3d7bffa6000808dbf2/colorLogoPNG.png" group-title="Pluto TV Serien",Pluto TV Britische Serien
+http://example.com/pluto/britseries
+
+#EXTINF:-1 tvg-id="686cff3224918d4300fa542b" tvg-chno="108" tvg-logo="https://images.pluto.tv/channels/686cff3224918d4300fa542b/colorLogoPNG_1753976762248.png" group-title="Pluto TV Serien",Stromberg
+http://example.com/pluto/stromberg
+
+#EXTINF:-1 tvg-id="686cfef52704ca31d85c4bf1" tvg-chno="109" tvg-logo="https://images.pluto.tv/channels/686cfef52704ca31d85c4bf1/colorLogoPNG_1753793017907.png" group-title="Pluto TV Serien",Pastewka
+http://example.com/pluto/pastewka
+
+# === Klassiker Serien ===
+#EXTINF:-1 tvg-id="67a324d221af380008105d6f" tvg-chno="110" tvg-logo="https://images.pluto.tv/channels/67a324d221af380008105d6f/colorLogoPNG.png" group-title="Pluto TV Klassiker",Eine schrecklich nette Familie
+http://example.com/pluto/schrecklichnettefamilie
+
+#EXTINF:-1 tvg-id="66c6fc06489bab0008b6f9da" tvg-chno="111" tvg-logo="https://images.pluto.tv/channels/66c6fc06489bab0008b6f9da/colorLogoPNG.png" group-title="Pluto TV Klassiker",Die Nanny
+http://example.com/pluto/nanny
+
+#EXTINF:-1 tvg-id="622f40c901d4b70007ad7609" tvg-chno="112" tvg-logo="https://images.pluto.tv/channels/622f40c901d4b70007ad7609/colorLogoPNG.png" group-title="Pluto TV Klassiker",Sabrina - Total verhext!
+http://example.com/pluto/sabrina
+
+#EXTINF:-1 tvg-id="622f487722d9d400075f74dd" tvg-chno="113" tvg-logo="https://images.pluto.tv/channels/622f487722d9d400075f74dd/colorLogoPNG.png" group-title="Pluto TV Klassiker",Ein Engel auf Erden
+http://example.com/pluto/engel
+
+#EXTINF:-1 tvg-id="622f6e1e2792150007e0b2ff" tvg-chno="114" tvg-logo="https://images.pluto.tv/channels/622f6e1e2792150007e0b2ff/colorLogoPNG.png" group-title="Pluto TV Klassiker",Alle hassen Chris
+http://example.com/pluto/chris
+
+# === Sport ===
+#EXTINF:-1 tvg-id="5ad9b7aae738977e2c312132" tvg-chno="115" tvg-logo="https://images.pluto.tv/channels/5ad9b7aae738977e2c312132/colorLogoPNG.png" group-title="Pluto TV Sport",World Poker Tour
+http://example.com/pluto/poker
+
+#EXTINF:-1 tvg-id="64b67f0424ade50008a3be17" tvg-chno="116" tvg-logo="https://images.pluto.tv/channels/64b67f0424ade50008a3be17/colorLogoPNG.png" group-title="Pluto TV Sport",DAZN Darts x Pluto TV
+http://example.com/pluto/darts
+
+#EXTINF:-1 tvg-id="68ac5543a1ac0c90f2c8943e" tvg-chno="117" tvg-logo="https://images.pluto.tv/channels/68ac5543a1ac0c90f2c8943e/colorLogoPNG_1760517341343.png" group-title="Pluto TV Sport",Pluto TV Snooker 900
+http://example.com/pluto/snooker
+
+#EXTINF:-1 tvg-id="5e7cb84a172a0f0007da69e4" tvg-chno="118" tvg-logo="https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png" group-title="Pluto TV Sport",Red Bull TV
+http://example.com/pluto/redbull
+
+#EXTINF:-1 tvg-id="660bfc032433010008def35a" tvg-chno="119" tvg-logo="https://images.pluto.tv/channels/660bfc032433010008def35a/colorLogoPNG_1750064741845.png" group-title="Pluto TV Sport",FIFA+
+http://example.com/pluto/fifa
+
+# === Krimi & Crime ===
+#EXTINF:-1 tvg-id="5e7b6c60fd20c50007910bf5" tvg-chno="120" tvg-logo="https://images.pluto.tv/channels/5e7b6c60fd20c50007910bf5/colorLogoPNG.png" group-title="Pluto TV Krimi",Pluto TV Crime
+http://example.com/pluto/crime
+
+#EXTINF:-1 tvg-id="64be64445dc166000899ce75" tvg-chno="121" tvg-logo="https://images.pluto.tv/channels/64be64445dc166000899ce75/colorLogoPNG_1753350668041.png" group-title="Pluto TV Krimi",Pluto TV Polizeiserien
+http://example.com/pluto/polizei
+
+#EXTINF:-1 tvg-id="615333098185f00008715a56" tvg-chno="122" tvg-logo="https://images.pluto.tv/channels/615333098185f00008715a56/colorLogoPNG.png" group-title="Pluto TV Krimi",Pluto TV True Crime
+http://example.com/pluto/truecrime
+
+#EXTINF:-1 tvg-id="5cb5cfe5caf83414128f209e" tvg-chno="123" tvg-logo="https://images.pluto.tv/channels/5cb5cfe5caf83414128f209e/colorLogoPNG.png" group-title="Pluto TV Krimi",KultKrimi
+http://example.com/pluto/kultkrimi
+
+#EXTINF:-1 tvg-id="65dde5848145cb00083277f6" tvg-chno="124" tvg-logo="https://images.pluto.tv/channels/65dde5848145cb00083277f6/colorLogoPNG.png" group-title="Pluto TV Krimi",KultKrimi: Derrick
+http://example.com/pluto/derrick
+
+# === Dokumentation & Wissen ===
+#EXTINF:-1 tvg-id="5d767b1c126c65d0a307355f" tvg-chno="125" tvg-logo="https://images.pluto.tv/channels/5d767b1c126c65d0a307355f/colorLogoPNG.png" group-title="Pluto TV Dokumentation",Pluto TV History
+http://example.com/pluto/history
+
+#EXTINF:-1 tvg-id="61409f8d6feb30000766b675" tvg-chno="126" tvg-logo="https://images.pluto.tv/channels/61409f8d6feb30000766b675/colorLogoPNG.png" group-title="Pluto TV Dokumentation",Pluto TV Space
+http://example.com/pluto/space
+
+#EXTINF:-1 tvg-id="5d767b4889bca2ce7b73ef2e" tvg-chno="127" tvg-logo="https://images.pluto.tv/channels/5d767b4889bca2ce7b73ef2e/colorLogoPNG.png" group-title="Pluto TV Dokumentation",Pluto TV Science
+http://example.com/pluto/science
+
+#EXTINF:-1 tvg-id="5d767ae7b456c8cf265ce922" tvg-chno="128" tvg-logo="https://images.pluto.tv/channels/5d767ae7b456c8cf265ce922/colorLogoPNG.png" group-title="Pluto TV Dokumentation",Pluto TV Animals
+http://example.com/pluto/animals
+
+#EXTINF:-1 tvg-id="5be1c3f9851dd5632e2c91b2" tvg-chno="129" tvg-logo="https://images.pluto.tv/channels/5be1c3f9851dd5632e2c91b2/colorLogoPNG.png" group-title="Pluto TV Dokumentation",Pluto TV Nature
+http://example.com/pluto/nature
+
+# === Sci-Fi & Fantasy ===
+#EXTINF:-1 tvg-id="6152ee71bf99590007893a11" tvg-chno="130" tvg-logo="https://images.pluto.tv/channels/6152ee71bf99590007893a11/colorLogoPNG.png" group-title="Pluto TV Sci-Fi",Pluto TV Star Trek
+http://example.com/pluto/startrek
+
+#EXTINF:-1 tvg-id="60ed498c4248a400077c0b9d" tvg-chno="131" tvg-logo="https://images.pluto.tv/channels/60ed498c4248a400077c0b9d/colorLogoPNG.png" group-title="Pluto TV Sci-Fi",Pluto TV Sci-Fi
+http://example.com/pluto/scifi
+
+#EXTINF:-1 tvg-id="68ada46d5190a45dc9c45af1" tvg-chno="132" tvg-logo="https://images.pluto.tv/channels/68ada46d5190a45dc9c45af1/colorLogoPNG_1759128462324.png" group-title="Pluto TV Sci-Fi",Pluto TV Ferne Galaxien
+http://example.com/pluto/galaxien
+
+#EXTINF:-1 tvg-id="6690fcb7d51259000880d479" tvg-chno="133" tvg-logo="https://images.pluto.tv/channels/6690fcb7d51259000880d479/colorLogoPNG.png" group-title="Pluto TV Sci-Fi",Star Trek: Voyager
+http://example.com/pluto/voyager
+
+#EXTINF:-1 tvg-id="65a67d200c7ff50008cb131a" tvg-chno="134" tvg-logo="https://images.pluto.tv/channels/65a67d200c7ff50008cb131a/colorLogoPNG.png" group-title="Pluto TV Sci-Fi",Star Trek: Deep Space Nine
+http://example.com/pluto/ds9
+
+# === Filme ===
+#EXTINF:-1 tvg-id="5c5c3b948002db3c3e0b262e" tvg-chno="135" tvg-logo="https://images.pluto.tv/channels/5c5c3b948002db3c3e0b262e/colorLogoPNG.png" group-title="Pluto TV Filme",Pluto TV Movies
+http://example.com/pluto/movies
+
+#EXTINF:-1 tvg-id="5dde47b63585b500099f74ec" tvg-chno="136" tvg-logo="https://images.pluto.tv/channels/5dde47b63585b500099f74ec/colorLogoPNG.png" group-title="Pluto TV Filme",Pluto TV Kultfilme
+http://example.com/pluto/kultfilme
+
+#EXTINF:-1 tvg-id="65004605110545000842035d" tvg-chno="137" tvg-logo="https://images.pluto.tv/channels/65004605110545000842035d/colorLogoPNG_1751356419664.png" group-title="Pluto TV Filme",Pluto TV Action
+http://example.com/pluto/action
+
+#EXTINF:-1 tvg-id="5e1efdbf90ba3e0009d99082" tvg-chno="138" tvg-logo="https://images.pluto.tv/channels/5e1efdbf90ba3e0009d99082/colorLogoPNG_1761807540430.png" group-title="Pluto TV Filme",Pluto TV Thriller
+http://example.com/pluto/thriller
+
+#EXTINF:-1 tvg-id="66337de656fc840008ff7a65" tvg-chno="139" tvg-logo="https://images.pluto.tv/channels/66337de656fc840008ff7a65/colorLogoPNG.png" group-title="Pluto TV Filme",Pluto TV Kult Comedies
+http://example.com/pluto/kultcomedies
+
+# === Anime & Kids ===
+#EXTINF:-1 tvg-id="608181d420fc8500075f612a" tvg-chno="140" tvg-logo="https://images.pluto.tv/channels/608181d420fc8500075f612a/colorLogoPNG_1747395463053.png" group-title="Pluto TV Anime/Kids",Pluto TV Anime
+http://example.com/pluto/anime
+
+#EXTINF:-1 tvg-id="67fe495d9ebfe4142424b7a7" tvg-chno="141" tvg-logo="https://images.pluto.tv/channels/67fe495d9ebfe4142424b7a7/colorLogoPNG_1746817524304.png" group-title="Pluto TV Anime/Kids",Pluto TV Anime: Fantasy
+http://example.com/pluto/animefantasy
+
+#EXTINF:-1 tvg-id="642d4493aa2d690008f0a03f" tvg-chno="142" tvg-logo="https://images.pluto.tv/channels/642d4493aa2d690008f0a03f/colorLogoPNG.png" group-title="Pluto TV Anime/Kids",Yu-Gi-Oh!
+http://example.com/pluto/yugioh
+
+#EXTINF:-1 tvg-id="65d5fc39a25d5e00082895c4" tvg-chno="143" tvg-logo="https://images.pluto.tv/channels/65d5fc39a25d5e00082895c4/colorLogoPNG.png" group-title="Pluto TV Anime/Kids",Naruto
+http://example.com/pluto/naruto
+
+#EXTINF:-1 tvg-id="65a7d99f4a10d800086083a9" tvg-chno="144" tvg-logo="https://images.pluto.tv/channels/65a7d99f4a10d800086083a9/colorLogoPNG.png" group-title="Pluto TV Anime/Kids",Assassination Classroom
+http://example.com/pluto/assassination
+
+# ======================
+# RAKUTEN TV KANÄLE
+# EPG-Quelle: https://raw.githubusercontent.com/dp247/rakuten-uk-epg/master/epg.xml
+# ======================
+
+# === Nachrichten ===
+#EXTINF:-1 tvg-id="france-24-en" tvg-chno="200" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork-negative/0fe0be21-9f4b-4c4a-96f7-9a0767278a66.png" group-title="Rakuten TV Nachrichten",France 24 FAST English
+http://example.com/rakuten/france24
+
+#EXTINF:-1 tvg-id="gb-news" tvg-chno="201" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork-negative/5a689244-0858-4bbe-ab2c-ed60ab1088cf.png" group-title="Rakuten TV Nachrichten",GB News
+http://example.com/rakuten/gbnews
+
+#EXTINF:-1 tvg-id="cgtn" tvg-chno="202" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork-negative/7668fa21-f6d9-4cc5-9f74-cccd94e4c202.png" group-title="Rakuten TV Nachrichten",CGTN
+http://example.com/rakuten/cgtn
+
+#EXTINF:-1 tvg-id="bloomberg-tv-plus" tvg-chno="203" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork-negative/eda4d06b-6685-44ea-887d-985839dd1463.png" group-title="Rakuten TV Nachrichten",Bloomberg TV+
+http://example.com/rakuten/bloomberg
+
+#EXTINF:-1 tvg-id="euronews-live-eng" tvg-chno="204" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork-negative/46d8e1b7-ab6c-495a-9568-d14ab32b12ef.png" group-title="Rakuten TV Nachrichten",Euronews LIVE
+http://example.com/rakuten/euronews
+
+# === Dokumentation & Wissen ===
+#EXTINF:-1 tvg-id="world-war-tv" tvg-chno="205" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork-negative/0dd7c386-7cf1-4a88-a28c-59dd118dbb3f.png" group-title="Rakuten TV Dokumentation",Weltkriegsfernsehen
+http://example.com/rakuten/worldwar
+
+#EXTINF:-1 tvg-id="cosmic-frontiers-uk" tvg-chno="206" tvg-logo="https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork-negative/bfd0c5ea-24a3-4633-a520-c48687cf1ef9.png" group-title="Rakuten TV Dokumentation",Kosmische Grenzen
+http://example.com/rakuten/cosmic
+
+#EXTINF:-1 tvg-id="adventure-earth" tvg-chno="207" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork-negative/b053bb0b-4859-43e0-bb06-98ca1afe7d07.png" group-title="Rakuten TV Dokumentation",Adventure Earth
+http://example.com/rakuten/adventure
+
+#EXTINF:-1 tvg-id="real-wild" tvg-chno="208" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork_negative/36b14b21-e6ac-496a-9041-307f72cf2f7f-real-wild-1643363526.png" group-title="Rakuten TV Dokumentation",Real Wild
+http://example.com/rakuten/realwild
+
+#EXTINF:-1 tvg-id="nature-time-eng-uk-feed" tvg-chno="209" tvg-logo="https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork-negative/46f08610-3009-4859-90ff-504b18b57296.png" group-title="Rakuten TV Dokumentation",Nature Time
+http://example.com/rakuten/naturetime
+
+# === True Crime & Mystery ===
+#EXTINF:-1 tvg-id="real-crime-uk" tvg-chno="210" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork-negative/c214c32e-7781-48c0-a980-0c53c4d5ad4c.png" group-title="Rakuten TV Crime",Echte Kriminalität
+http://example.com/rakuten/realcrime
+
+#EXTINF:-1 tvg-id="filmrise-unsolved-mysteries" tvg-chno="211" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork_negative/1ef4ffd4-cc6f-4d4d-887d-2c7947559006-filmrise-unsolved-mysteries-1643623239.png" group-title="Rakuten TV Crime",Unsolved Mysteries
+http://example.com/rakuten/unsolved
+
+#EXTINF:-1 tvg-id="crime-justice" tvg-chno="212" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork-negative/83db6ebc-f8cd-4aee-8ad6-0be21e4d67a9.png" group-title="Rakuten TV Crime",Verbrechen und Gerechtigkeit
+http://example.com/rakuten/crimejustice
+
+#EXTINF:-1 tvg-id="filmrise-dr-g-medical-examiner" tvg-chno="213" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork-negative/0329694f-e4b7-40bb-bde8-4f8ee8508153.png" group-title="Rakuten TV Crime",Dr. G: Gerichtsmediziner
+http://example.com/rakuten/drg
+
+#EXTINF:-1 tvg-id="mystery-tv" tvg-chno="214" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork-negative/ddb8d9db-b2bd-4737-bdde-9f45feb0a2b0.png" group-title="Rakuten TV Crime",Mystery TV
+http://example.com/rakuten/mystery
+
+# === Reality & Lifestyle ===
+#EXTINF:-1 tvg-id="hell-s-kitchen-itv" tvg-chno="215" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork-negative/d58909b0-6dbf-4b36-b830-9db107e32039.png" group-title="Rakuten TV Reality",Hell's Kitchen
+http://example.com/rakuten/hellskitchen
+
+#EXTINF:-1 tvg-id="wicked-tuna-eng" tvg-chno="216" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork-negative/c6792a3e-d3d2-435c-b1cc-55fb9b66ce8a.png" group-title="Rakuten TV Reality",Wicked Tuna
+http://example.com/rakuten/wickedtuna
+
+#EXTINF:-1 tvg-id="river-monsters-eng" tvg-chno="217" tvg-logo="https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork-negative/23ce6e28-305e-4f56-bb56-337b699207fe.png" group-title="Rakuten TV Reality",Flussmonster
+http://example.com/rakuten/rivermonsters
+
+#EXTINF:-1 tvg-id="ice-road-truckers" tvg-chno="218" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork-negative/19fb74a3-db7b-4bab-8aa0-edba2d9251b2.png" group-title="Rakuten TV Reality",Ice Road Truckers
+http://example.com/rakuten/iceroad
+
+#EXTINF:-1 tvg-id="duck-dynasty" tvg-chno="219" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork-negative/82ffacef-7776-4cfa-b9a2-f4593197895d.png" group-title="Rakuten TV Reality",Duck Dynasty
+http://example.com/rakuten/duck
+
+# === Sport ===
+#EXTINF:-1 tvg-id="world-poker-tour" tvg-chno="220" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork-negative/8baa58b6-ae65-46ae-a7ef-d4d0c1d2c8b9.png" group-title="Rakuten TV Sport",World Poker Tour
+http://example.com/rakuten/poker
+
+#EXTINF:-1 tvg-id="tennis-channel-en" tvg-chno="221" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork_negative/a7a03e35-838f-452e-898a-325a95c9be08-tennis-channel-1646214337.png" group-title="Rakuten TV Sport",Tenniskanal
+http://example.com/rakuten/tennis
+
+#EXTINF:-1 tvg-id="red-bull-tv-en-uk" tvg-chno="222" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork-negative/90f6297b-1022-478d-8b6e-6c81d20d24d2.png" group-title="Rakuten TV Sport",Red Bull TV
+http://example.com/rakuten/redbull
+
+#EXTINF:-1 tvg-id="fifa-plus-uk-live-new" tvg-chno="223" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork-negative/276e22c9-50a7-4b1e-96ce-5d3fee43f970.png" group-title="Rakuten TV Sport",FIFA+
+http://example.com/rakuten/fifa
+
+#EXTINF:-1 tvg-id="pfl-mma" tvg-chno="224" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork-negative/ae31d5ea-3057-4a8e-b3ac-a492f71b25f9.png" group-title="Rakuten TV Sport",PFL MMA
+http://example.com/rakuten/mma
+
+# === Musik ===
+#EXTINF:-1 tvg-id="now-90s00s" tvg-chno="225" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork-negative/46d363d2-b6fe-45fb-a2f1-c9c5a8b8c155.png" group-title="Rakuten TV Musik",JETZT 90er Jahre
+http://example.com/rakuten/now90s
+
+#EXTINF:-1 tvg-id="now-80s" tvg-chno="226" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork-negative/0b130f43-b13e-4561-94c4-0edc75c80e07.png" group-title="Rakuten TV Musik",JETZT 80er
+http://example.com/rakuten/now80s
+
+#EXTINF:-1 tvg-id="now-70s" tvg-chno="227" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork-negative/9cbf62fa-4ee8-4f22-9cbc-21061cc44f3b.png" group-title="Rakuten TV Musik",JETZT 70er
+http://example.com/rakuten/now70s
+
+#EXTINF:-1 tvg-id="vevo-pop-uk" tvg-chno="228" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork-negative/b9dbb934-4f49-4497-b70d-ff6ddbba3502.png" group-title="Rakuten TV Musik",Vevo Pop
+http://example.com/rakuten/vevopop
+
+#EXTINF:-1 tvg-id="vevo-hip-hop-rb-uk" tvg-chno="229" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork-negative/47bb5b72-a5cb-409d-8227-e182b5928471.png" group-title="Rakuten TV Musik",Vevo Hip-Hop & R&B
+http://example.com/rakuten/vevohiphop
+
+# === Serien & Drama ===
+#EXTINF:-1 tvg-id="heartland" tvg-chno="230" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork-negative/68059229-f0eb-4775-98db-e02642851989.png" group-title="Rakuten TV Serien",Heartland
+http://example.com/rakuten/heartland
+
+#EXTINF:-1 tvg-id="rookie-blue-eng" tvg-chno="231" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork-negative/8c48a7c3-54dd-4558-89cd-76298f456d5d.png" group-title="Rakuten TV Serien",Rookie Blue
+http://example.com/rakuten/rookieblue
+
+#EXTINF:-1 tvg-id="21-jump-street" tvg-chno="232" tvg-logo="https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork-negative/9dd273ae-2dfe-45e3-a3c1-6342441423f7.png" group-title="Rakuten TV Serien",21 Jump Street
+http://example.com/rakuten/21jump
+
+#EXTINF:-1 tvg-id="andromeda-en" tvg-chno="233" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork-negative/0eb63025-95af-4bd3-85cd-affa54b04c95.png" group-title="Rakuten TV Serien",Andromeda
+http://example.com/rakuten/andromeda
+
+#EXTINF:-1 tvg-id="the-bold-and-the-beautiful" tvg-chno="234" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork-negative/cdb8d432-e128-4a6b-9d6f-04c29ae8a00d.png" group-title="Rakuten TV Serien",Reich und Schön
+http://example.com/rakuten/boldbeautiful
+
+# === Kinder & Familie ===
+#EXTINF:-1 tvg-id="mr-bean-en" tvg-chno="235" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork-negative/4a7556af-8f3e-4f84-889c-e53738588070.png" group-title="Rakuten TV Kids",Mr. Bean
+http://example.com/rakuten/mrbean
+
+#EXTINF:-1 tvg-id="yu-gi-oh-new-en" tvg-chno="236" tvg-logo="https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork-negative/5a7a40ff-2c69-4cf8-8397-d819a71e61c6.png" group-title="Rakuten TV Kids",Yu-Gi-Oh!
+http://example.com/rakuten/yugioh
+
+#EXTINF:-1 tvg-id="baby-shark-tv" tvg-chno="237" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork_negative/dc09b67f-ecd9-4ef0-81b5-abf2f63ed26e-baby-shark-tv-1643365877.png" group-title="Rakuten TV Kids",Baby Shark TV
+http://example.com/rakuten/babyshark
+
+#EXTINF:-1 tvg-id="cartoon-classics" tvg-chno="238" tvg-logo="https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork-negative/d1777210-699b-4ec8-a43d-1f960640d334.png" group-title="Rakuten TV Kids",Cartoon-Klassiker
+http://example.com/rakuten/cartoon
+
+#EXTINF:-1 tvg-id="pop-kids" tvg-chno="239" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork-negative/72ed8433-23c3-46d1-aceb-5fc9ea89732c.png" group-title="Rakuten TV Kids",POP Kids
+http://example.com/rakuten/popkids
+
+# === Filme (Genre-Kanäle) ===
+#EXTINF:-1 tvg-id="action-rakuten-tv" tvg-chno="240" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork-negative/33ef404c-5ac7-4a76-8ac5-d2c8b614940e.png" group-title="Rakuten TV Filme",Actionfilme - Rakuten TV
+http://example.com/rakuten/action
+
+#EXTINF:-1 tvg-id="comedy-rakuten-tv" tvg-chno="241" tvg-logo="https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork-negative/faca9886-f324-4240-9f27-3725a2834116.png" group-title="Rakuten TV Filme",Komödienfilme - Rakuten TV
+http://example.com/rakuten/comedy
+
+#EXTINF:-1 tvg-id="drama-rakuten-tv" tvg-chno="242" tvg-logo="https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork-negative/b8a5d017-1777-4a42-8f52-36d81e7c0f84.png" group-title="Rakuten TV Filme",Dramafilme - Rakuten TV
+http://example.com/rakuten/drama
+
+#EXTINF:-1 tvg-id="sci-fi-rakuten-tv" tvg-chno="243" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork-negative/3bae481e-2c87-4e98-85b3-2a1ad67ffb8b.png" group-title="Rakuten TV Filme",Sci-Fi - Rakuten TV
+http://example.com/rakuten/scifi
+
+#EXTINF:-1 tvg-id="thriller-rakuten-tv" tvg-chno="244" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork-negative/f4f3761d-ee24-4a31-84ba-d6b22e0c3d0d.png" group-title="Rakuten TV Filme",Thriller - Rakuten TV
+http://example.com/rakuten/thriller
+
+# ======================
+# WEIHNACHTSKANÄLE (GANZ UNTEN)
+# ======================
+
+# --- Pluto TV Weihnachten ---
+#EXTINF:-1 tvg-id="5dc29179c928a600093a7747" tvg-chno="300" tvg-logo="https://images.pluto.tv/channels/5dc29179c928a600093a7747/colorLogoPNG.png" group-title="Pluto TV Specials",Pluto TV Christmas
+http://example.com/pluto/christmas
+
+#EXTINF:-1 tvg-id="684ac14b5965a2fd49583311" tvg-chno="301" tvg-logo="https://images.pluto.tv/channels/684ac14b5965a2fd49583311/colorLogoPNG_1757587715183.png" group-title="Pluto TV Specials",Weihnachtskino
+http://example.com/pluto/weihnachtskino
+
+#EXTINF:-1 tvg-id="5d767a76367b89cf0032550d" tvg-chno="302" tvg-logo="https://images.pluto.tv/channels/5d767a76367b89cf0032550d/colorLogoPNG_1761128648314.png" group-title="Pluto TV Specials",Pluto TV Mistletoe
+http://example.com/pluto/mistletoe
+
+#EXTINF:-1 tvg-id="5be1c0d81843b56328bc3fba" tvg-chno="303" tvg-logo="https://images.pluto.tv/channels/5be1c0d81843b56328bc3fba/colorLogoPNG.png" group-title="Pluto TV Specials",Pluto TV Fireplace
+http://example.com/pluto/fireplace
+
+#EXTINF:-1 tvg-id="6908950b8643dc1657e33fdd" tvg-chno="304" tvg-logo="https://images.pluto.tv/channels/6908950b8643dc1657e33fdd/colorLogoPNG_1764575755540.png" group-title="Pluto TV Specials",Pluto TV Magische Geschichten
+http://example.com/pluto/magisch
+
+# --- Rakuten TV Weihnachten ---
+#EXTINF:-1 tvg-id="vevo-holiday-eng" tvg-chno="305" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork-negative/ffeb7afb-0d7f-48f2-aa81-536dac6fbe83.png" group-title="Rakuten TV Specials",Vevo Weihnachten
+http://example.com/rakuten/vevoholiday
+
+#EXTINF:-1 tvg-id="family-rakuten-tv" tvg-chno="306" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork-negative/5215c617-bca3-450f-8cb7-bd1f137ca957.png" group-title="Rakuten TV Specials",100% Weihnachten - Rakuten TV
+http://example.com/rakuten/christmasfamily
