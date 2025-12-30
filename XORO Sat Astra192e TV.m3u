@@ -1,6 +1,3 @@
-#EXTM3U x-tvg-url="https://xmltv.info/de/epg.xml"
-
-# --- DEUTSCHLAND: VOLLPROGRAMME ---
 #EXTINF:-1 tvg-id="DE: Das Erste" tvg-chno="1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Das_Erste_2014.svg/960px-Das_Erste_2014.svg.png" group-title="DE: Vollprogramme",Das Erste
 rtsp://192.168.178.74/?src=1&freq=11494&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5100,5101,5102,5104
 #EXTINF:-1 tvg-id="DE: ZDF" tvg-chno="2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/ZDF_logo.svg/960px-ZDF_logo.svg.png" group-title="DE: Vollprogramme",ZDF
@@ -57,8 +54,6 @@ rtsp://192.168.178.74/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts
 rtsp://192.168.178.74/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=22000&fec=56&pids=0,17,18,99,1023,1024
 #EXTINF:-1 tvg-id="DE: n-tv" tvg-chno="28" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/N-tv_Logo_2021.svg/500px-N-tv_Logo_2021.svg.png" group-title="DE: Nachrichten",n-tv
 rtsp://192.168.178.74/?src=1&freq=12187&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,48,169,73
-
-# --- DEUTSCHLAND: REGIONAL ---
 #EXTINF:-1 tvg-id="DE: rbb Berlin" tvg-chno="29" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Rbb_Fernsehen_2017.svg/500px-Rbb_Fernsehen_2017.svg.png" group-title="DE: Regional",RBB Berlin
 rtsp://192.168.178.74/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5310,5311,5312,5314
 #EXTINF:-1 tvg-id="DE: 3sat" tvg-chno="30" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/500px-3sat_2019.svg.png" group-title="DE: Vollprogramme",3sat
@@ -83,8 +78,6 @@ rtsp://192.168.178.74/?src=1&freq=11523&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts
 rtsp://192.168.178.74/?src=1&freq=11494&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5121,5122,5120,5124
 #EXTINF:-1 tvg-id="DE: SR" tvg-chno="40" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/SR_Fernsehen_Logo_2023.svg/500px-SR_Fernsehen_Logo_2023.svg.png" group-title="DE: Regional",SR
 rtsp://192.168.178.74/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=off&sr=22000&fec=23&pids=0,17,18,5430,5431,5432,5433,5434,5436,5437
-
-# --- MUSIK & SPORT ---
 #EXTINF:-1 tvg-id="30_Minutes" tvg-chno="41" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/VIVA_Logo_blue-yellow_solid.svg/1558px-VIVA_Logo_blue-yellow_solid.svg.png" group-title="DE: Musik",VIVA
 rtsp://192.168.178.74/?src=1&freq=11973&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=off&sr=27500&fec=34&pids=0,17,18,416,4061,4062,8190
 #EXTINF:-1 tvg-id="DE: MTV" tvg-chno="42" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/MTV_Logo_2021.svg/500px-MTV_Logo_2021.svg.png" group-title="DE: Musik",MTV
